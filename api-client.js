@@ -1,6 +1,6 @@
 // API Client for Học Toán Vui Backend
 // Base URL for API (adjust if server is running on different port)
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = '/api';
 
 const API = {
     // ============================================
