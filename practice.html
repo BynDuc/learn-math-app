@@ -326,13 +326,27 @@
             }
         }
 
+        // Shuffle array function (Fisher-Yates algorithm)
+        function shuffleArray(array) {
+            const shuffled = [...array]; // Create a copy
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
         // Select module
         async function selectModule(moduleNum) {
             currentModule = moduleNum;
 
             try {
                 // Load exercises
-                exercises = await API.getExercises(moduleNum);
+                const loadedExercises = await API.getExercises(moduleNum);
+
+                // Shuffle exercises for randomization
+                exercises = shuffleArray(loadedExercises);
+
                 currentExerciseIndex = 0;
                 correctAnswers = 0;
                 totalAnswered = 0;
