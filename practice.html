@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Làm Bài Tập - Học Toán Vui</title>
+    <meta name="description" content="Làm bài tập toán học cho trẻ 5 tuổi">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .practice-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: var(--spacing-2xl);
+        }
+
+        .student-section {
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            padding: var(--spacing-2xl);
+            border-radius: var(--radius-xl);
+            color: white;
+            margin-bottom: var(--spacing-2xl);
+            text-align: center;
+        }
+
+        .exercise-card {
+            background: white;
+            padding: var(--spacing-2xl);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-xl);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .exercise-question {
+            font-size: var(--font-size-2xl);
+            font-weight: 600;
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-xl);
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--spacing-md);
+            margin: var(--spacing-xl) 0;
+        }
+
+        .option-btn {
+            padding: var(--spacing-lg);
+            font-size: var(--font-size-lg);
+            border: 3px solid var(--color-primary);
+            background: white;
+            border-radius: var(--radius-lg);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .option-btn:hover {
+            background: var(--color-primary);
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .option-btn.correct {
+            background: var(--color-accent-green);
+            color: white;
+            border-color: var(--color-accent-green);
+        }
+
+        .option-btn.incorrect {
+            background: #ef4444;
+            color: white;
+            border-color: #ef4444;
+        }
+
+        .answer-input {
+            width: 100%;
+            max-width: 300px;
+            padding: var(--spacing-lg);
+            font-size: var(--font-size-2xl);
+            border: 3px solid var(--color-primary);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            font-weight: 600;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .feedback {
+            text-align: center;
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            margin: var(--spacing-lg) 0;
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+        }
+
+        .feedback.correct {
+            background: var(--color-accent-green);
+            color: white;
+        }
+
+        .feedback.incorrect {
+            background: #ef4444;
+            color: white;
+        }
+
+        .progress-bar {
+            background: var(--color-bg-secondary);
+            height: 30px;
+            border-radius: var(--radius-full);
+            overflow: hidden;
+            margin: var(--spacing-lg) 0;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+            height: 100%;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--spacing-md);
+            margin: var(--spacing-xl) 0;
+        }
+
+        .stat-card {
+            background: var(--color-bg-secondary);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: var(--font-size-3xl);
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+
+        .stat-label {
+            color: var(--color-text-secondary);
+            margin-top: var(--spacing-sm);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">🎓 Học Toán Vui</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="curriculum.html">Chương Trình Học</a></li>
+                <li><a href="practice.html" class="active">Làm Bài Tập</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="practice-container">
+        <!-- Student Registration -->
+        <div id="studentSection" class="student-section">
+            <h1>👋 Chào Bé!</h1>
+            <p style="font-size: var(--font-size-lg); margin: var(--spacing-md) 0;">
+                Hãy cho bé biết tên để bắt đầu làm bài tập nhé!
+            </p>
+            <div style="margin-top: var(--spacing-xl);">
+                <input type="text" id="studentName" placeholder="Nhập tên bé..."
+                    style="padding: var(--spacing-md) var(--spacing-lg); font-size: var(--font-size-lg); border-radius: var(--radius-lg); border: none; width: 100%; max-width: 400px; text-align: center;">
+                <button onclick="registerStudent()" class="btn btn-primary"
+                    style="margin-top: var(--spacing-md); background: white; color: var(--color-primary);">
+                    Bắt Đầu Làm Bài 🚀
+                </button>
+            </div>
+        </div>
+
+        <!-- Module Selection -->
+        <div id="moduleSection" class="hidden">
+            <h2 class="text-center mb-xl">Chọn Chương Trình Học</h2>
+            <div class="grid grid-2">
+                <div class="card" onclick="selectModule(1)" style="cursor: pointer;">
+                    <h3>🔢 Module 1</h3>
+                    <p>Nhận Biết Số 0-10</p>
+                    <div class="btn btn-primary" style="margin-top: var(--spacing-md);">Bắt Đầu</div>
+                </div>
+                <div class="card" onclick="selectModule(2)" style="cursor: pointer;">
+                    <h3>📊 Module 2</h3>
+                    <p>Đếm và So Sánh</p>
+                    <div class="btn btn-primary" style="margin-top: var(--spacing-md);">Bắt Đầu</div>
+                </div>
+                <div class="card" onclick="selectModule(3)" style="cursor: pointer;">
+                    <h3>➕ Module 3</h3>
+                    <p>Cộng Trừ Cơ Bản</p>
+                    <div class="btn btn-primary" style="margin-top: var(--spacing-md);">Bắt Đầu</div>
+                </div>
+                <div class="card" onclick="selectModule(4)" style="cursor: pointer;">
+                    <h3>🔺 Module 4</h3>
+                    <p>Hình Học và Logic</p>
+                    <div class="btn btn-primary" style="margin-top: var(--spacing-md);">Bắt Đầu</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exercise Section -->
+        <div id="exerciseSection" class="hidden">
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="correctCount">0</div>
+                    <div class="stat-label">Đúng</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalCount">0</div>
+                    <div class="stat-label">Tổng số</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="percentageCount">0%</div>
+                    <div class="stat-label">Tỷ lệ</div>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%;">0/100</div>
+            </div>
+
+            <!-- Exercise Card -->
+            <div class="exercise-card">
+                <!-- Visual Illustration Area -->
+                <div id="visualArea"
+                    style="text-align: center; margin-bottom: var(--spacing-2xl); min-height: 120px; display: flex; align-items: center; justify-content: center; font-size: 5rem; line-height: 1.2; flex-wrap: wrap; gap: 15px; padding: var(--spacing-lg); background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: var(--radius-lg);">
+                </div>
+
+                <div class="exercise-question" id="questionText"></div>
+
+                <!-- Multiple Choice Options -->
+                <div id="optionsContainer" class="options-grid hidden"></div>
+
+                <!-- Text Input -->
+                <div id="inputContainer" class="hidden">
+                    <input type="text" id="answerInput" class="answer-input" placeholder="Nhập đáp án...">
+                    <button onclick="submitAnswer()" class="btn btn-primary"
+                        style="margin-top: var(--spacing-lg); display: block; margin-left: auto; margin-right: auto;">
+                        Kiểm Tra
+                    </button>
+                </div>
+
+                <!-- Feedback -->
+                <div id="feedback" class="feedback hidden"></div>
+
+                <!-- Next Button -->
+                <div id="nextBtnContainer" class="hidden" style="text-align: center; margin-top: var(--spacing-lg);">
+                    <button onclick="nextExercise()" class="btn btn-primary">
+                        Bài Tiếp Theo →
+                    </button>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: var(--spacing-xl);">
+                <button onclick="backToModules()" class="btn btn-outline">
+                    ← Chọn Module Khác
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Học Toán Vui - Design by BynByn</p>
+        </div>
+    </footer>
+
+    <script src="api-client.js"></script>
+    <script src="script.js"></script>
+    <script>
+        let currentStudent = null;
+        let currentModule = null;
+        let exercises = [];
+        let currentExerciseIndex = 0;
+        let correctAnswers = 0;
+        let totalAnswered = 0;
+
+        // Register student
+        async function registerStudent() {
+            const nameInput = document.getElementById('studentName');
+            const name = nameInput.value.trim();
+
+            if (!name) {
+                alert('Vui lòng nhập tên bé!');
+                return;
+            }
+
+            try {
+                // Create or get student
+                const student = await API.createStudent(name);
+                currentStudent = student;
+                StudentManager.setCurrentStudentId(student.id);
+                StudentManager.setCurrentStudentName(name);
+
+                // Show module selection
+                document.getElementById('studentSection').classList.add('hidden');
+                document.getElementById('moduleSection').classList.remove('hidden');
+            } catch (error) {
+                console.error('Error registering student:', error);
+                alert('Không thể tạo học sinh. Vui lòng kiểm tra server đang chạy!');
+            }
+        }
+
+        // Select module
+        async function selectModule(moduleNum) {
+            currentModule = moduleNum;
+
+            try {
+                // Load exercises
+                exercises = await API.getExercises(moduleNum);
+                currentExerciseIndex = 0;
+                correctAnswers = 0;
+                totalAnswered = 0;
+
+                // Show exercise section
+                document.getElementById('moduleSection').classList.add('hidden');
+                document.getElementById('exerciseSection').classList.remove('hidden');
+
+                // Load first exercise
+                loadExercise();
+                updateStats();
+            } catch (error) {
+                console.error('Error loading exercises:', error);
+                alert('Không thể tải bài tập. Vui lòng kiểm tra server!');
+            }
+        }
+
+        // Load current exercise
+        function loadExercise() {
+            if (currentExerciseIndex >= exercises.length) {
+                showCompletion();
+                return;
+            }
+
+            const exercise = exercises[currentExerciseIndex];
+
+            // Extract and display visual elements
+            const visualArea = document.getElementById('visualArea');
+            const questionText = exercise.question;
+
+            // Map keywords to illustration files
+            const illustrationMap = {
+                'hình tam giác': 'images/triangle_corners.png',
+                'tam giác': 'images/triangle_corners.png',
+                'hình vuông': 'images/square_corners.png',
+                'vuông': 'images/square_corners.png',
+                'hình tròn': 'images/circle_no_corners.png',
+                'tròn': 'images/circle_no_corners.png',
+                'hình chữ nhật': 'images/square_corners.png',
+                'cộng': 'images/addition_example.png',
+                '+ ': 'images/addition_example.png'
+            };
+
+            // Find matching illustration
+            let illustrationPath = null;
+            const lowerQuestion = questionText.toLowerCase();
+            for (const [keyword, path] of Object.entries(illustrationMap)) {
+                if (lowerQuestion.includes(keyword)) {
+                    illustrationPath = path;
+                    break;
+                }
+            }
+
+            // Enhanced emoji regex to catch all visual content
+            const emojiRegex = /[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[⭐⭕⬜🔺▭]/gu;
+            const emojis = questionText.match(emojiRegex);
+
+            if (illustrationPath) {
+                // Show illustration image
+                visualArea.innerHTML = `<img src="${illustrationPath}" alt="Minh họa" style="max-width: 400px; max-height: 300px; object-fit: contain;">`;
+                visualArea.style.display = 'flex';
+                document.getElementById('questionText').textContent = questionText;
+            } else if (emojis && emojis.length > 0) {
+                // Display emojis in large visual area
+                visualArea.innerHTML = emojis.map(emoji => `<span style="margin: 5px;">${emoji}</span>`).join('');
+                visualArea.style.display = 'flex';
+                // Remove emojis from question text for cleaner display
+                const cleanQuestion = questionText.replace(emojiRegex, '').replace(/:\s+/g, ': ').replace(/\s+/g, ' ').trim();
+                document.getElementById('questionText').textContent = cleanQuestion;
+            } else {
+                // No emojis, hide visual area
+                visualArea.style.display = 'none';
+                document.getElementById('questionText').textContent = questionText;
+            }
+
+            document.getElementById('feedback').classList.add('hidden');
+            document.getElementById('nextBtnContainer').classList.add('hidden');
+
+            // Show appropriate input type
+            if (exercise.options) {
+                // Multiple choice
+                showMultipleChoice(exercise.options);
+            } else {
+                // Text input
+                showTextInput();
+            }
+
+            updateProgress();
+        }
+
+        // Show multiple choice options
+        function showMultipleChoice(options) {
+            document.getElementById('optionsContainer').classList.remove('hidden');
+            document.getElementById('inputContainer').classList.add('hidden');
+
+            const container = document.getElementById('optionsContainer');
+            container.innerHTML = '';
+
+            options.forEach(option => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.textContent = option;
+                btn.onclick = () => checkMultipleChoice(option, btn);
+                container.appendChild(btn);
+            });
+        }
+
+        // Show text input
+        function showTextInput() {
+            document.getElementById('optionsContainer').classList.add('hidden');
+            document.getElementById('inputContainer').classList.remove('hidden');
+            document.getElementById('answerInput').value = '';
+            document.getElementById('answerInput').focus();
+        }
+
+        // Check multiple choice answer
+        async function checkMultipleChoice(selected, btn) {
+            const exercise = exercises[currentExerciseIndex];
+            const isCorrect = selected === exercise.correctAnswer;
+
+            // Disable all buttons
+            document.querySelectorAll('.option-btn').forEach(b => {
+                b.disabled = true;
+                if (b.textContent === exercise.correctAnswer) {
+                    b.classList.add('correct');
+                }
+            });
+
+            if (!isCorrect) {
+                btn.classList.add('incorrect');
+            }
+
+            await handleAnswer(selected, isCorrect);
+        }
+
+        // Submit text answer
+        async function submitAnswer() {
+            const answer = document.getElementById('answerInput').value.trim();
+
+            if (!answer) {
+                alert('Vui lòng nhập đáp án!');
+                return;
+            }
+
+            const exercise = exercises[currentExerciseIndex];
+            const isCorrect = answer === exercise.correctAnswer;
+
+            await handleAnswer(answer, isCorrect);
+        }
+
+        // Handle answer submission
+        async function handleAnswer(answer, isCorrect) {
+            const exercise = exercises[currentExerciseIndex];
+
+            // Save result to backend
+            try {
+                await API.saveResult(
+                    currentStudent.id,
+                    currentModule,
+                    exercise.id,
+                    answer,
+                    isCorrect
+                );
+            } catch (error) {
+                console.error('Error saving result:', error);
+            }
+
+            // Update stats
+            totalAnswered++;
+            if (isCorrect) {
+                correctAnswers++;
+            }
+            updateStats();
+
+            // Show feedback
+            const feedback = document.getElementById('feedback');
+            feedback.classList.remove('hidden');
+            feedback.className = 'feedback ' + (isCorrect ? 'correct' : 'incorrect');
+            feedback.textContent = isCorrect
+                ? '🎉 Chính xác! Giỏi lắm!'
+                : `😊 Chưa đúng! Đáp án là: ${exercise.correctAnswer}`;
+
+            // Show next button
+            document.getElementById('nextBtnContainer').classList.remove('hidden');
+        }
+
+        // Next exercise
+        function nextExercise() {
+            currentExerciseIndex++;
+            loadExercise();
+        }
+
+        // Update progress
+        function updateProgress() {
+            const progress = Math.round((currentExerciseIndex / exercises.length) * 100);
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = `${currentExerciseIndex}/${exercises.length}`;
+        }
+
+        // Update stats
+        function updateStats() {
+            document.getElementById('correctCount').textContent = correctAnswers;
+            document.getElementById('totalCount').textContent = totalAnswered;
+            const percentage = totalAnswered > 0
+                ? Math.round((correctAnswers / totalAnswered) * 100)
+                : 0;
+            document.getElementById('percentageCount').textContent = percentage + '%';
+        }
+
+        // Show completion
+        function showCompletion() {
+            const percentage = Math.round((correctAnswers / totalAnswered) * 100);
+            document.getElementById('exerciseSection').innerHTML = `
+                <div class="card text-center">
+                    <h2 style="font-size: var(--font-size-4xl); margin-bottom: var(--spacing-lg);">
+                        🎉 Hoàn Thành Module ${currentModule}!
+                    </h2>
+                    <div style="font-size: var(--font-size-3xl); color: var(--color-primary); margin: var(--spacing-xl) 0;">
+                        ${correctAnswers}/${totalAnswered} câu đúng (${percentage}%)
+                    </div>
+                    <p style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0;">
+                        ${percentage >= 80 ? 'Xuất sắc! Bé làm rất tốt! 🌟' :
+                    percentage >= 60 ? 'Tốt lắm! Bé đang tiến bộ! 👍' :
+                        'Cố gắng thêm nhé! Bé sẽ giỏi hơn! 💪'}
+                    </p>
+                    <button onclick="backToModules()" class="btn btn-primary" style="margin-top: var(--spacing-xl);">
+                        Chọn Module Khác
+                    </button>
+                </div>
+            `;
+        }
+
+        // Back to modules
+        function backToModules() {
+            document.getElementById('exerciseSection').classList.add('hidden');
+            document.getElementById('moduleSection').classList.remove('hidden');
+        }
+
+        // Check if student already registered
+        window.onload = function () {
+            if (StudentManager.hasCurrentStudent()) {
+                const name = StudentManager.getCurrentStudentName();
+                const id = StudentManager.getCurrentStudentId();
+                currentStudent = { id: parseInt(id), name: name };
+
+                document.getElementById('studentSection').classList.add('hidden');
+                document.getElementById('moduleSection').classList.remove('hidden');
+            }
+        };
+    </script>
+</body>
+
+</html>

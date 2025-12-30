@@ -1,0 +1,1212 @@
+[
+    {
+        "id": 1,
+        "type": "shape-recognition",
+        "question": "Hình nào là hình tròn?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 2,
+        "type": "shape-recognition",
+        "question": "Hình nào là hình vuông?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 3,
+        "type": "shape-recognition",
+        "question": "Hình nào là hình tam giác?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 4,
+        "type": "shape-recognition",
+        "question": "Hình nào là hình chữ nhật?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 5,
+        "type": "shape-recognition",
+        "question": "Hình tròn có mấy góc?",
+        "options": [
+            "0",
+            "3",
+            "4",
+            "Nhiều"
+        ],
+        "correctAnswer": "0",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 6,
+        "type": "shape-recognition",
+        "question": "Hình vuông có mấy góc?",
+        "options": [
+            "0",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 7,
+        "type": "shape-recognition",
+        "question": "Hình tam giác có mấy góc?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 8,
+        "type": "shape-recognition",
+        "question": "Hình chữ nhật có mấy góc?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 9,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ⭕⬜⭕🔺⭕. Có mấy hình tròn?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 10,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ⬜⬜🔺⬜▭⬜. Có mấy hình vuông?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 11,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: 🔺⭕🔺🔺⬜🔺. Có mấy hình tam giác?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 12,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ▭▭⭕▭⬜▭. Có mấy hình chữ nhật?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 13,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⬜⭕⬜⭕?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 14,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? 🔺🔺⭕🔺🔺⭕🔺🔺?",
+        "options": [
+            "⭕",
+            "🔺",
+            "⬜",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 15,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜🔺▭⬜🔺▭⬜🔺?",
+        "options": [
+            "⬜",
+            "🔺",
+            "▭",
+            "⭕"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 16,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⭕⬜⭕⭕⬜⭕⭕?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 17,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? 🔺⭕🔺⭕🔺?",
+        "options": [
+            "⭕",
+            "🔺",
+            "⬜",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 18,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⭕⭕⬜⭕⭕",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 3",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 19,
+        "type": "classification",
+        "question": "Hình nào khác biệt? 🔺🔺🔺⬜🔺",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 4",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 20,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⬜▭⬜⬜⬜",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 2",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 21,
+        "type": "shape-recognition",
+        "question": "Vật nào có hình tròn? 🍎🌕⬜",
+        "options": [
+            "Táo",
+            "Mặt trăng",
+            "Cửa sổ"
+        ],
+        "correctAnswer": "Mặt trăng",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 22,
+        "type": "shape-recognition",
+        "question": "Vật nào có hình vuông? 📺🎈⚽",
+        "options": [
+            "TV",
+            "Bóng bay",
+            "Bóng đá"
+        ],
+        "correctAnswer": "TV",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 23,
+        "type": "shape-recognition",
+        "question": "Vật nào có hình tam giác? 🏔️⭕📕",
+        "options": [
+            "Núi",
+            "Hình tròn",
+            "Sách"
+        ],
+        "correctAnswer": "Núi",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 24,
+        "type": "shape-recognition",
+        "question": "Vật nào có hình chữ nhật? 📱⚽🎩",
+        "options": [
+            "Điện thoại",
+            "Bóng",
+            "Nón"
+        ],
+        "correctAnswer": "Điện thoại",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 25,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ⭕⭕⭕⭕⭕. Có mấy hình?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 26,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ⬜⬜⬜⬜⬜⬜⬜. Có mấy hình?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 27,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: 🔺🔺🔺🔺🔺🔺🔺🔺🔺. Có mấy hình?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 28,
+        "type": "classification",
+        "question": "Nhóm hình giống nhau: ▭▭▭▭▭▭. Có mấy hình?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 29,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕🔺⭕🔺⭕?",
+        "options": [
+            "⭕",
+            "🔺",
+            "⬜",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 30,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜⬜🔺⬜⬜🔺⬜⬜?",
+        "options": [
+            "⬜",
+            "🔺",
+            "⭕",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 31,
+        "type": "shape-recognition",
+        "question": "Hình vuông có mấy cạnh?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 32,
+        "type": "shape-recognition",
+        "question": "Hình tam giác có mấy cạnh?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 33,
+        "type": "shape-recognition",
+        "question": "Hình chữ nhật có mấy cạnh?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 34,
+        "type": "classification",
+        "question": "Tất cả hình: ⭕⬜🔺▭. Có bao nhiêu hình?",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 35,
+        "type": "classification",
+        "question": "Tất cả hình: ⭕⭕⬜⬜🔺🔺▭▭. Có bao nhiêu hình?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 36,
+        "type": "classification",
+        "question": "Tất cả hình: ⭕⬜⭕⬜⭕⬜⭕⬜⭕⬜. Có bao nhiêu hình?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 37,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ▭⭕▭⭕▭?",
+        "options": [
+            "▭",
+            "⭕",
+            "🔺",
+            "⬜"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 38,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? 🔺🔺⬜🔺🔺⬜🔺🔺?",
+        "options": [
+            "🔺",
+            "⬜",
+            "⭕",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 39,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ▭▭▭⭕▭",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 4",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 40,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⭕⭕⭕⭕▭",
+        "options": [
+            "Hình 1",
+            "Hình 3",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 5",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 41,
+        "type": "shape-recognition",
+        "question": "Bánh xe có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tròn",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 42,
+        "type": "shape-recognition",
+        "question": "Cửa sổ thường có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Không biết"
+        ],
+        "correctAnswer": "Vuông",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 43,
+        "type": "shape-recognition",
+        "question": "Mái nhà có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tam giác",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 44,
+        "type": "shape-recognition",
+        "question": "Cửa ra vào có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Chữ nhật",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 45,
+        "type": "classification",
+        "question": "Trong nhóm ⭕🔺⬜⭕▭⭕, có bao nhiêu hình tròn?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 46,
+        "type": "classification",
+        "question": "Trong nhóm ⬜⬜🔺⬜⭕⬜▭⬜, có bao nhiêu hình vuông?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 47,
+        "type": "classification",
+        "question": "Trong nhóm 🔺⭕🔺⬜🔺▭🔺, có bao nhiêu hình tam giác?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 48,
+        "type": "classification",
+        "question": "Trong nhóm ▭⭕▭🔺▭⬜▭, có bao nhiêu hình chữ nhật?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 49,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⭕⬜⭕⭕⬜⭕⭕?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 50,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? 🔺⬜▭🔺⬜▭🔺⬜?",
+        "options": [
+            "🔺",
+            "⬜",
+            "▭",
+            "⭕"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 51,
+        "type": "shape-recognition",
+        "question": "Hình nào không có góc?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 52,
+        "type": "shape-recognition",
+        "question": "Hình nào có 3 cạnh?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 53,
+        "type": "shape-recognition",
+        "question": "Hình nào có 4 cạnh bằng nhau?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 2,
+        "category": "properties"
+    },
+    {
+        "id": 54,
+        "type": "classification",
+        "question": "Hình nào khác biệt? 🔺⬜🔺🔺🔺",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 2",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 55,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⬜⬜⬜🔺⬜",
+        "options": [
+            "Hình 2",
+            "Hình 3",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 4",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 56,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜🔺⬜🔺⬜?",
+        "options": [
+            "⬜",
+            "🔺",
+            "⭕",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 57,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ▭▭⭕▭▭⭕▭▭?",
+        "options": [
+            "▭",
+            "⭕",
+            "🔺",
+            "⬜"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 58,
+        "type": "classification",
+        "question": "Nhóm hình: ⭕⭕⭕⬜⬜⬜. Có bao nhiêu loại hình?",
+        "correctAnswer": "2",
+        "difficulty": 2,
+        "category": "classification"
+    },
+    {
+        "id": 59,
+        "type": "classification",
+        "question": "Nhóm hình: ⭕⬜🔺▭. Có bao nhiêu loại hình?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "classification"
+    },
+    {
+        "id": 60,
+        "type": "classification",
+        "question": "Nhóm hình: ⭕⭕⬜⬜🔺🔺. Có bao nhiêu loại hình?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "classification"
+    },
+    {
+        "id": 61,
+        "type": "shape-recognition",
+        "question": "Mặt trời có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tròn",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 62,
+        "type": "shape-recognition",
+        "question": "Tivi có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Chữ nhật",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 63,
+        "type": "shape-recognition",
+        "question": "Nón lá có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tam giác",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 64,
+        "type": "shape-recognition",
+        "question": "Bóng đá có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tròn",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 65,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⬜🔺⭕⬜🔺⭕⬜?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 66,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜⬜⬜⭕⬜⬜⬜⭕⬜⬜⬜?",
+        "options": [
+            "⬜",
+            "⭕",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 67,
+        "type": "classification",
+        "question": "Trong ⭕⭕⭕⭕⭕⭕⭕⭕, có bao nhiêu hình tròn?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 68,
+        "type": "classification",
+        "question": "Trong ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜, có bao nhiêu hình vuông?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 69,
+        "type": "classification",
+        "question": "Trong 🔺🔺🔺🔺🔺🔺, có bao nhiêu hình tam giác?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 70,
+        "type": "classification",
+        "question": "Trong ▭▭▭▭▭▭▭, có bao nhiêu hình chữ nhật?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 71,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⭕🔺⭕⭕⭕",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 2",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 72,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ▭▭⬜▭▭",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 3",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 73,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⭕⭕⬜⬜⬜⭕⭕⭕?",
+        "options": [
+            "⭕",
+            "⬜",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⬜",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 74,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? 🔺▭🔺▭🔺?",
+        "options": [
+            "🔺",
+            "▭",
+            "⭕",
+            "⬜"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 75,
+        "type": "shape-recognition",
+        "question": "Sách có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Chữ nhật",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 76,
+        "type": "shape-recognition",
+        "question": "Đồng hồ tròn có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tròn",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 77,
+        "type": "shape-recognition",
+        "question": "Biển báo giao thông có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Tất cả đều có"
+        ],
+        "correctAnswer": "Tất cả đều có",
+        "difficulty": 2,
+        "category": "real-world"
+    },
+    {
+        "id": 78,
+        "type": "classification",
+        "question": "Trong ⭕⬜⭕🔺⭕▭⭕, có bao nhiêu hình tròn?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 79,
+        "type": "classification",
+        "question": "Trong 🔺⬜🔺⬜🔺⬜🔺⬜🔺, có bao nhiêu hình tam giác?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 80,
+        "type": "classification",
+        "question": "Trong ▭⭕▭⭕▭⭕▭⭕▭⭕, có bao nhiêu hình chữ nhật?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 81,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜▭⬜▭⬜?",
+        "options": [
+            "⬜",
+            "▭",
+            "⭕",
+            "🔺"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 82,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕⭕🔺⭕⭕🔺⭕⭕?",
+        "options": [
+            "⭕",
+            "🔺",
+            "⬜",
+            "▭"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 83,
+        "type": "classification",
+        "question": "Hình nào khác biệt? 🔺🔺⭕🔺🔺",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 3",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 84,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⬜⬜⬜⬜▭",
+        "options": [
+            "Hình 2",
+            "Hình 3",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 5",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 85,
+        "type": "shape-recognition",
+        "question": "Hình nào có nhiều góc nhất?",
+        "options": [
+            "⭕ (0)",
+            "🔺 (3)",
+            "⬜ (4)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "⬜ (4)",
+        "difficulty": 2,
+        "category": "comparison"
+    },
+    {
+        "id": 86,
+        "type": "shape-recognition",
+        "question": "Hình nào có ít góc nhất?",
+        "options": [
+            "⭕ (0)",
+            "🔺 (3)",
+            "⬜ (4)",
+            "▭ (4)"
+        ],
+        "correctAnswer": "⭕ (0)",
+        "difficulty": 2,
+        "category": "comparison"
+    },
+    {
+        "id": 87,
+        "type": "classification",
+        "question": "Trong ⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕, có bao nhiêu hình?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 88,
+        "type": "classification",
+        "question": "Trong ⬜🔺⬜🔺⬜🔺, có bao nhiêu hình vuông?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 89,
+        "type": "classification",
+        "question": "Trong ⭕⬜🔺▭⭕⬜🔺▭, có bao nhiêu loại hình?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "classification"
+    },
+    {
+        "id": 90,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⭕🔺⬜▭⭕🔺⬜▭⭕🔺⬜?",
+        "options": [
+            "⭕",
+            "🔺",
+            "⬜",
+            "▭"
+        ],
+        "correctAnswer": "▭",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 91,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ⬜⬜⭕⬜⬜⭕⬜⬜?",
+        "options": [
+            "⬜",
+            "⭕",
+            "🔺",
+            "▭"
+        ],
+        "correctAnswer": "⭕",
+        "difficulty": 2,
+        "category": "pattern"
+    },
+    {
+        "id": 92,
+        "type": "classification",
+        "question": "Hình nào khác biệt? ⭕⭕⭕⭕⬜",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 4",
+            "Hình 5"
+        ],
+        "correctAnswer": "Hình 5",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 93,
+        "type": "classification",
+        "question": "Hình nào khác biệt? 🔺▭🔺🔺🔺",
+        "options": [
+            "Hình 1",
+            "Hình 2",
+            "Hình 3",
+            "Hình 4"
+        ],
+        "correctAnswer": "Hình 2",
+        "difficulty": 2,
+        "category": "odd-one-out"
+    },
+    {
+        "id": 94,
+        "type": "shape-recognition",
+        "question": "Giường có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Chữ nhật",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 95,
+        "type": "shape-recognition",
+        "question": "Pizza có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tròn",
+        "difficulty": 1,
+        "category": "real-world"
+    },
+    {
+        "id": 96,
+        "type": "shape-recognition",
+        "question": "Mảnh pizza có hình gì?",
+        "options": [
+            "Tròn",
+            "Vuông",
+            "Tam giác",
+            "Chữ nhật"
+        ],
+        "correctAnswer": "Tam giác",
+        "difficulty": 2,
+        "category": "real-world"
+    },
+    {
+        "id": 97,
+        "type": "classification",
+        "question": "Trong ⭕⬜⭕⬜⭕⬜, có bao nhiêu hình tròn?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 98,
+        "type": "classification",
+        "question": "Trong 🔺🔺🔺🔺🔺🔺🔺🔺, có bao nhiêu hình tam giác?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "counting-shapes"
+    },
+    {
+        "id": 99,
+        "type": "pattern",
+        "question": "Tiếp theo là hình gì? ▭⭕🔺▭⭕🔺▭⭕?",
+        "options": [
+            "▭",
+            "⭕",
+            "🔺",
+            "⬜"
+        ],
+        "correctAnswer": "🔺",
+        "difficulty": 3,
+        "category": "pattern"
+    },
+    {
+        "id": 100,
+        "type": "classification",
+        "question": "Trong ⭕⭕⬜⬜🔺🔺▭▭, có bao nhiêu loại hình?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "classification"
+    }
+]

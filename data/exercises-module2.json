@@ -1,0 +1,1107 @@
+[
+    {
+        "id": 1,
+        "type": "counting",
+        "question": "Đếm số táo: 🍎🍎🍎🍎🍎",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 2,
+        "type": "counting",
+        "question": "Đếm số sao: ⭐⭐⭐⭐⭐⭐⭐",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 3,
+        "type": "counting",
+        "question": "Đếm số hoa: 🌸🌸🌸🌸🌸🌸🌸🌸🌸",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 4,
+        "type": "counting",
+        "question": "Đếm số bóng: 🎈🎈🎈🎈🎈🎈",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 5,
+        "type": "counting",
+        "question": "Đếm số kẹo: 🍬🍬🍬🍬",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 6,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🍎🍎🍎 hay B: 🍎🍎🍎🍎🍎",
+        "options": [
+            "A (3 quả)",
+            "B (5 quả)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (5 quả)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 7,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: ⭐⭐⭐⭐⭐⭐⭐ hay B: ⭐⭐⭐",
+        "options": [
+            "A (7 ngôi sao)",
+            "B (3 ngôi sao)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (3 ngôi sao)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 8,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🌸🌸🌸🌸 và B: 🌸🌸🌸🌸",
+        "options": [
+            "Có",
+            "Không",
+            "Không chắc"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 9,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🎈🎈 hay B: 🎈🎈🎈🎈🎈🎈",
+        "options": [
+            "A (2 quả)",
+            "B (6 quả)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (6 quả)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 10,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🍬🍬🍬🍬🍬 hay B: 🍬🍬",
+        "options": [
+            "A (5 viên)",
+            "B (2 viên)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (2 viên)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 11,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 🍎🍎🍎, 🍎, 🍎🍎🍎🍎🍎",
+        "options": [
+            "1-3-5",
+            "3-1-5",
+            "5-3-1",
+            "1-5-3"
+        ],
+        "correctAnswer": "1-3-5",
+        "difficulty": 2,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 12,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: ⭐⭐, ⭐⭐⭐⭐⭐⭐, ⭐⭐⭐⭐",
+        "options": [
+            "6-4-2",
+            "2-4-6",
+            "4-6-2",
+            "2-6-4"
+        ],
+        "correctAnswer": "6-4-2",
+        "difficulty": 2,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 13,
+        "type": "counting",
+        "question": "Đếm số xe: 🚗🚗🚗🚗🚗🚗🚗🚗",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 14,
+        "type": "counting",
+        "question": "Đếm số con bướm: 🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 15,
+        "type": "counting",
+        "question": "Đếm số cây: 🌳🌳🌳",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 16,
+        "type": "comparison",
+        "question": "5 có nhiều hơn 3 không?",
+        "options": [
+            "Có",
+            "Không",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 17,
+        "type": "comparison",
+        "question": "7 có ít hơn 4 không?",
+        "options": [
+            "Có",
+            "Không",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 18,
+        "type": "comparison",
+        "question": "6 có bằng 6 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 19,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🏀🏀🏀🏀🏀🏀🏀 hay B: 🏀🏀🏀🏀",
+        "options": [
+            "A (7 quả)",
+            "B (4 quả)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "A (7 quả)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 20,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🎨🎨🎨🎨🎨🎨🎨🎨 hay B: 🎨🎨🎨🎨🎨",
+        "options": [
+            "A (8 cây)",
+            "B (5 cây)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (5 cây)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 21,
+        "type": "counting",
+        "question": "Đếm số quả cam: 🍊🍊🍊🍊🍊🍊🍊",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 22,
+        "type": "counting",
+        "question": "Đếm số trái tim: ❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 23,
+        "type": "counting",
+        "question": "Đếm số mặt trời: ☀️☀️☀️☀️☀️☀️",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 24,
+        "type": "counting",
+        "question": "Đếm số nốt nhạc: 🎵🎵🎵🎵",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 25,
+        "type": "counting",
+        "question": "Đếm số cái cốc: 🥤🥤🥤🥤🥤🥤🥤🥤",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 26,
+        "type": "comparison",
+        "question": "9 có lớn hơn 7 không?",
+        "options": [
+            "Có",
+            "Không",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 27,
+        "type": "comparison",
+        "question": "2 có nhỏ hơn 5 không?",
+        "options": [
+            "Có",
+            "Không",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 28,
+        "type": "comparison",
+        "question": "10 có bằng 8 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 29,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🌺🌺🌺🌺🌺 và B: 🌺🌺🌺🌺🌺",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 30,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🎁🎁🎁 và B: 🎁🎁🎁🎁🎁",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 31,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 🌸🌸🌸🌸🌸, 🌸🌸, 🌸🌸🌸🌸🌸🌸🌸🌸",
+        "options": [
+            "2-5-8",
+            "5-2-8",
+            "8-5-2",
+            "2-8-5"
+        ],
+        "correctAnswer": "2-5-8",
+        "difficulty": 2,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 32,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: 🍎🍎🍎🍎🍎🍎🍎, 🍎🍎🍎, 🍎🍎🍎🍎🍎🍎🍎🍎🍎",
+        "options": [
+            "9-7-3",
+            "3-7-9",
+            "7-9-3",
+            "9-3-7"
+        ],
+        "correctAnswer": "9-7-3",
+        "difficulty": 2,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 33,
+        "type": "counting",
+        "question": "Đếm số cái nón: 🎩🎩🎩🎩🎩",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 34,
+        "type": "counting",
+        "question": "Đếm số cái ô: ☂️☂️☂️☂️☂️☂️☂️",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 35,
+        "type": "counting",
+        "question": "Đếm số quả bóng đá: ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 36,
+        "type": "comparison",
+        "question": "Số nào lớn hơn: 4 hay 6?",
+        "options": [
+            "4",
+            "6",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 37,
+        "type": "comparison",
+        "question": "Số nào nhỏ hơn: 8 hay 3?",
+        "options": [
+            "8",
+            "3",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 38,
+        "type": "comparison",
+        "question": "Số nào lớn hơn: 10 hay 7?",
+        "options": [
+            "10",
+            "7",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "10",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 39,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🎯🎯🎯🎯🎯🎯 hay B: 🎯🎯🎯🎯",
+        "options": [
+            "A (6 cái)",
+            "B (4 cái)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "A (6 cái)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 40,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🔔🔔🔔🔔🔔🔔🔔🔔🔔 hay B: 🔔🔔🔔🔔🔔🔔",
+        "options": [
+            "A (9 cái)",
+            "B (6 cái)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (6 cái)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 41,
+        "type": "counting",
+        "question": "Đếm số chiếc lá: 🍃🍃🍃🍃🍃🍃",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 42,
+        "type": "counting",
+        "question": "Đếm số con cá: 🐟🐟🐟🐟🐟🐟🐟🐟",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 43,
+        "type": "counting",
+        "question": "Đếm số con chim: 🐦🐦🐦🐦🐦🐦🐦🐦🐦",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 44,
+        "type": "counting",
+        "question": "Đếm số cái bánh: 🍰🍰🍰🍰🍰",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 45,
+        "type": "counting",
+        "question": "Đếm số cái kẹo mút: 🍭🍭🍭🍭🍭🍭🍭",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 46,
+        "type": "ordering",
+        "question": "Số nào lớn nhất trong 3 số: 2, 7, 5?",
+        "options": [
+            "2",
+            "7",
+            "5"
+        ],
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 47,
+        "type": "ordering",
+        "question": "Số nào nhỏ nhất trong 3 số: 6, 3, 9?",
+        "options": [
+            "6",
+            "3",
+            "9"
+        ],
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 48,
+        "type": "ordering",
+        "question": "Số nào lớn nhất trong 3 số: 4, 8, 1?",
+        "options": [
+            "4",
+            "8",
+            "1"
+        ],
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 49,
+        "type": "ordering",
+        "question": "Số nào nhỏ nhất trong 3 số: 10, 5, 7?",
+        "options": [
+            "10",
+            "5",
+            "7"
+        ],
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 50,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🎪🎪🎪🎪🎪🎪🎪 và B: 🎪🎪🎪🎪🎪🎪🎪",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 51,
+        "type": "counting",
+        "question": "Đếm số cái đồng hồ: ⏰⏰⏰⏰",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 52,
+        "type": "counting",
+        "question": "Đếm số cái chuông: 🔔🔔🔔🔔🔔🔔🔔🔔",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 53,
+        "type": "counting",
+        "question": "Đếm số con ong: 🐝🐝🐝🐝🐝🐝🐝🐝🐝🐝",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 54,
+        "type": "counting",
+        "question": "Đếm số cuốn sách: 📚📚📚📚📚📚",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 55,
+        "type": "counting",
+        "question": "Đếm số chiếc lá phong: 🍁🍁🍁🍁🍁🍁🍁",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 56,
+        "type": "comparison",
+        "question": "Số nào nhỏ hơn: 1 hay 9?",
+        "options": [
+            "1",
+            "9",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 57,
+        "type": "comparison",
+        "question": "Số nào lớn hơn: 5 hay 2?",
+        "options": [
+            "5",
+            "2",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 58,
+        "type": "comparison",
+        "question": "8 có bằng 8 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 59,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🌵🌵🌵🌵🌵 hay B: 🌵🌵🌵🌵🌵🌵🌵🌵",
+        "options": [
+            "A (5 cây)",
+            "B (8 cây)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (8 cây)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 60,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🎃🎃🎃🎃🎃🎃🎃🎃🎃 hay B: 🎃🎃🎃🎃",
+        "options": [
+            "A (9 quả)",
+            "B (4 quả)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (4 quả)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 61,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 1, 6, 3",
+        "options": [
+            "1-3-6",
+            "6-3-1",
+            "1-6-3",
+            "3-1-6"
+        ],
+        "correctAnswer": "1-3-6",
+        "difficulty": 2,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 62,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: 9, 2, 7",
+        "options": [
+            "9-7-2",
+            "2-7-9",
+            "7-9-2",
+            "9-2-7"
+        ],
+        "correctAnswer": "9-7-2",
+        "difficulty": 2,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 63,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 4, 10, 6",
+        "options": [
+            "4-6-10",
+            "10-6-4",
+            "6-4-10",
+            "4-10-6"
+        ],
+        "correctAnswer": "4-6-10",
+        "difficulty": 2,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 64,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: 3, 8, 5",
+        "options": [
+            "8-5-3",
+            "3-5-8",
+            "5-8-3",
+            "8-3-5"
+        ],
+        "correctAnswer": "8-5-3",
+        "difficulty": 2,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 65,
+        "type": "counting",
+        "question": "Đếm số chiếc bánh quy: 🍪🍪🍪🍪🍪🍪🍪🍪🍪",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 66,
+        "type": "counting",
+        "question": "Đếm số viên kim cương: 💎💎💎💎💎",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 67,
+        "type": "counting",
+        "question": "Đếm số chiếc chìa khóa: 🔑🔑🔑🔑🔑🔑🔑",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 68,
+        "type": "counting",
+        "question": "Đếm số cái kính: 👓👓👓👓👓👓",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 69,
+        "type": "counting",
+        "question": "Đếm số chiếc giày: 👟👟👟👟👟👟👟👟",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 70,
+        "type": "comparison",
+        "question": "4 có lớn hơn 7 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 71,
+        "type": "comparison",
+        "question": "6 có nhỏ hơn 10 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 72,
+        "type": "comparison",
+        "question": "3 có bằng 5 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 73,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🎸🎸🎸🎸🎸🎸 và B: 🎸🎸🎸🎸🎸🎸",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 74,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🎮🎮🎮🎮 và B: 🎮🎮🎮🎮🎮🎮🎮",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 75,
+        "type": "ordering",
+        "question": "Số nào lớn nhất trong 3 số: 1, 5, 3?",
+        "options": [
+            "1",
+            "5",
+            "3"
+        ],
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 76,
+        "type": "ordering",
+        "question": "Số nào nhỏ nhất trong 3 số: 7, 2, 9?",
+        "options": [
+            "7",
+            "2",
+            "9"
+        ],
+        "correctAnswer": "2",
+        "difficulty": 2,
+        "category": "max-min"
+    },
+    {
+        "id": 77,
+        "type": "ordering",
+        "question": "Số nào lớn nhất trong 4 số: 3, 6, 2, 8?",
+        "options": [
+            "3",
+            "6",
+            "2",
+            "8"
+        ],
+        "correctAnswer": "8",
+        "difficulty": 3,
+        "category": "max-min"
+    },
+    {
+        "id": 78,
+        "type": "ordering",
+        "question": "Số nào nhỏ nhất trong 4 số: 5, 9, 4, 6?",
+        "options": [
+            "5",
+            "9",
+            "4",
+            "6"
+        ],
+        "correctAnswer": "4",
+        "difficulty": 3,
+        "category": "max-min"
+    },
+    {
+        "id": 79,
+        "type": "counting",
+        "question": "Đếm số chiếc mũ: 🎓🎓🎓🎓🎓🎓🎓🎓🎓🎓",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 80,
+        "type": "counting",
+        "question": "Đếm số con rùa: 🐢🐢🐢🐢",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 81,
+        "type": "counting",
+        "question": "Đếm số con ếch: 🐸🐸🐸🐸🐸🐸🐸",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 82,
+        "type": "counting",
+        "question": "Đếm số con bọ rùa: 🐞🐞🐞🐞🐞🐞",
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 83,
+        "type": "counting",
+        "question": "Đếm số con bạch tuộc: 🐙🐙🐙🐙🐙🐙🐙🐙🐙",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 84,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🎲🎲🎲🎲🎲🎲🎲🎲 hay B: 🎲🎲🎲🎲🎲",
+        "options": [
+            "A (8 viên)",
+            "B (5 viên)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "A (8 viên)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 85,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🎺🎺🎺 hay B: 🎺🎺🎺🎺🎺🎺🎺",
+        "options": [
+            "A (3 cái)",
+            "B (7 cái)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "A (3 cái)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 86,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 5, 1, 9",
+        "options": [
+            "1-5-9",
+            "9-5-1",
+            "5-1-9",
+            "1-9-5"
+        ],
+        "correctAnswer": "1-5-9",
+        "difficulty": 2,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 87,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: 4, 10, 6",
+        "options": [
+            "10-6-4",
+            "4-6-10",
+            "6-10-4",
+            "10-4-6"
+        ],
+        "correctAnswer": "10-6-4",
+        "difficulty": 2,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 88,
+        "type": "ordering",
+        "question": "Sắp xếp từ ít đến nhiều: 2, 7, 3, 9",
+        "options": [
+            "2-3-7-9",
+            "9-7-3-2",
+            "2-7-3-9",
+            "3-2-7-9"
+        ],
+        "correctAnswer": "2-3-7-9",
+        "difficulty": 3,
+        "category": "ordering-asc"
+    },
+    {
+        "id": 89,
+        "type": "ordering",
+        "question": "Sắp xếp từ nhiều đến ít: 8, 1, 5, 3",
+        "options": [
+            "8-5-3-1",
+            "1-3-5-8",
+            "8-1-5-3",
+            "5-8-1-3"
+        ],
+        "correctAnswer": "8-5-3-1",
+        "difficulty": 3,
+        "category": "ordering-desc"
+    },
+    {
+        "id": 90,
+        "type": "comparison",
+        "question": "Số nào lớn hơn: 1 hay 2?",
+        "options": [
+            "1",
+            "2",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 91,
+        "type": "comparison",
+        "question": "Số nào nhỏ hơn: 10 hay 6?",
+        "options": [
+            "10",
+            "6",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "6",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 92,
+        "type": "comparison",
+        "question": "Số nào lớn hơn: 3 hay 9?",
+        "options": [
+            "3",
+            "9",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "9",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 93,
+        "type": "comparison",
+        "question": "7 có bằng 7 không?",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "number-comparison"
+    },
+    {
+        "id": 94,
+        "type": "counting",
+        "question": "Đếm số cái bánh pizza: 🍕🍕🍕🍕🍕🍕🍕🍕",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 95,
+        "type": "counting",
+        "question": "Đếm số ly nước: 🥛🥛🥛🥛🥛",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-counting"
+    },
+    {
+        "id": 96,
+        "type": "counting",
+        "question": "Đếm số chiếc diều: 🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-counting"
+    },
+    {
+        "id": 97,
+        "type": "comparison",
+        "question": "Nhóm nào có nhiều hơn? A: 🏐🏐🏐🏐🏐🏐 hay B: 🏐🏐🏐",
+        "options": [
+            "A (6 quả)",
+            "B (3 quả)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "A (6 quả)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 98,
+        "type": "comparison",
+        "question": "Nhóm nào có ít hơn? A: 🎻🎻🎻🎻🎻🎻🎻🎻🎻 hay B: 🎻🎻🎻🎻🎻🎻",
+        "options": [
+            "A (9 cây)",
+            "B (6 cây)",
+            "Bằng nhau"
+        ],
+        "correctAnswer": "B (6 cây)",
+        "difficulty": 1,
+        "category": "more-less"
+    },
+    {
+        "id": 99,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: 🌙🌙🌙🌙🌙🌙🌙🌙 và B: 🌙🌙🌙🌙🌙🌙🌙🌙",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Có",
+        "difficulty": 1,
+        "category": "equal"
+    },
+    {
+        "id": 100,
+        "type": "comparison",
+        "question": "Hai nhóm có bằng nhau không? A: ⚡⚡⚡⚡⚡ và B: ⚡⚡⚡",
+        "options": [
+            "Có",
+            "Không"
+        ],
+        "correctAnswer": "Không",
+        "difficulty": 1,
+        "category": "equal"
+    }
+]

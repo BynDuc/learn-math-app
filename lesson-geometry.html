@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4: Hình Học và Tư Duy Logic - Học Toán Vui</title>
+    <meta name="description" content="Bài học giúp trẻ 5 tuổi nhận biết các hình cơ bản và phát triển tư duy logic">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                🎓 Học Toán Vui
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="curriculum.html">Chương Trình Học</a></li>
+                <li><a href="index.html#about">Giới Thiệu</a></li>
+                <li><a href="index.html#benefits">Lợi Ích</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Lesson Header -->
+    <div class="lesson-header">
+        <div class="container">
+            <div
+                style="display: inline-block; background: var(--color-accent-green); color: white; padding: var(--spacing-sm) var(--spacing-lg); border-radius: var(--radius-full); font-weight: 600; margin-bottom: var(--spacing-md);">
+                Bài Học 4
+            </div>
+            <h1>🔺 Hình Học và Tư Duy Logic</h1>
+            <p style="font-size: var(--font-size-lg); max-width: 700px; margin: var(--spacing-lg) auto 0;">
+                Khám phá thế giới các hình dạng xung quanh bé và rèn luyện tư duy logic qua các trò chơi thú vị!
+            </p>
+        </div>
+    </div>
+
+    <!-- Learning Objectives -->
+    <section class="section">
+        <div class="container">
+            <div class="lesson-objective">
+                <h2>🎯 Mục Tiêu Bài Học</h2>
+                <p style="margin: var(--spacing-md) 0 0; line-height: 2;">
+                    Sau khi hoàn thành bài học này, bé sẽ có thể:<br>
+                    ✅ Nhận biết và gọi tên các hình cơ bản: tròn, vuông, tam giác, chữ nhật<br>
+                    ✅ Phân biệt đặc điểm khác nhau giữa các hình<br>
+                    ✅ Tìm các hình trong cuộc sống hàng ngày<br>
+                    ✅ Phân loại theo màu sắc, kích thước, hình dạng<br>
+                    ✅ Giải các bài toán tư duy logic đơn giản
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shapes Introduction -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-xl">📐 Làm Quen Với Các Hình Cơ Bản</h2>
+
+            <div class="grid grid-2">
+                <!-- Circle -->
+                <div
+                    style="background: linear-gradient(135deg, #FECACA, #FCA5A5); padding: var(--spacing-2xl); border-radius: var(--radius-xl); color: white; text-align: center; box-shadow: var(--shadow-xl);">
+                    <div
+                        style="width: 150px; height: 150px; background: white; border-radius: 50%; margin: 0 auto var(--spacing-lg); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        😊
+                    </div>
+                    <h3 style="font-size: var(--font-size-3xl); color: white; margin-bottom: var(--spacing-md);">⭕ Hình
+                        Tròn</h3>
+                    <p style="opacity: 0.95; font-size: var(--font-size-lg); line-height: 2;">
+                        • Không có góc cạnh<br>
+                        • Tròn trịa, mượt mà<br>
+                        • Ví dụ: mặt trời, bánh xe, đồng hồ, bóng
+                    </p>
+                </div>
+
+                <!-- Square -->
+                <div
+                    style="background: linear-gradient(135deg, #93C5FD, #3B82F6); padding: var(--spacing-2xl); border-radius: var(--radius-xl); color: white; text-align: center; box-shadow: var(--shadow-xl);">
+                    <div
+                        style="width: 150px; height: 150px; background: white; margin: 0 auto var(--spacing-lg); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        🎁
+                    </div>
+                    <h3 style="font-size: var(--font-size-3xl); color: white; margin-bottom: var(--spacing-md);">⬜ Hình
+                        Vuông</h3>
+                    <p style="opacity: 0.95; font-size: var(--font-size-lg); line-height: 2;">
+                        • Có 4 góc vuông<br>
+                        • Có 4 cạnh bằng nhau<br>
+                        • Ví dụ: cửa sổ, hộp quà, khối rubik
+                    </p>
+                </div>
+
+                <!-- Triangle -->
+                <div
+                    style="background: linear-gradient(135deg, #FCD34D, #F59E0B); padding: var(--spacing-2xl); border-radius: var(--radius-xl); color: white; text-align: center; box-shadow: var(--shadow-xl);">
+                    <div
+                        style="width: 150px; height: 150px; background: white; margin: 0 auto var(--spacing-lg); display: flex; align-items: center; justify-content: center;">
+                        <div
+                            style="width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 86px solid #F59E0B;">
+                        </div>
+                    </div>
+                    <h3 style="font-size: var(--font-size-3xl); color: white; margin-bottom: var(--spacing-md);">🔺 Hình
+                        Tam Giác</h3>
+                    <p style="opacity: 0.95; font-size: var(--font-size-lg); line-height: 2;">
+                        • Có 3 góc<br>
+                        • Có 3 cạnh<br>
+                        • Ví dụ: nón lá, núi, mái nhà, dấu cảnh báo
+                    </p>
+                </div>
+
+                <!-- Rectangle -->
+                <div
+                    style="background: linear-gradient(135deg, #A7F3D0, #10B981); padding: var(--spacing-2xl); border-radius: var(--radius-xl); color: white; text-align: center; box-shadow: var(--shadow-xl);">
+                    <div
+                        style="width: 180px; height: 120px; background: white; margin: 0 auto var(--spacing-lg); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+                        📱
+                    </div>
+                    <h3 style="font-size: var(--font-size-3xl); color: white; margin-bottom: var(--spacing-md);">▭ Hình
+                        Chữ Nhật</h3>
+                    <p style="opacity: 0.95; font-size: var(--font-size-lg); line-height: 2;">
+                        • Có 4 góc vuông<br>
+                        • Có 2 cặp cạnh đối bằng nhau<br>
+                        • Ví dụ: cửa ra vào, tivi, điện thoại, sách
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Finding Shapes -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-xl">🔍 Tìm Hình Trong Cuộc Sống</h2>
+
+            <div class="lesson-content">
+                <p class="text-center mb-lg" style="font-size: var(--font-size-lg);">
+                    Hãy nhìn xung quanh và tìm các hình trong cuộc sống hàng ngày nhé!
+                </p>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>🏠 Trong Nhà</h3>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md); line-height: 2;">
+                            <strong>Hình tròn:</strong> Đồng hồ, đĩa ăn, gương tròn, nút áo<br>
+                            <strong>Hình vuông:</strong> Gối, khăn tay, ảnh treo tường<br>
+                            <strong>Hình tam giác:</strong> Móc treo quần áo, miếng pizza<br>
+                            <strong>Hình chữ nhật:</strong> Cửa ra vào, tivi, giường, sách
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>🌳 Ngoài Trời</h3>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md); line-height: 2;">
+                            <strong>Hình tròn:</strong> Mặt trời, bánh xe, bóng, đèn giao thông<br>
+                            <strong>Hình vuông:</strong> Ô cửa sổ, bảng hiệu<br>
+                            <strong>Hình tam giác:</strong> Mái nhà, núi, cờ, biển báo giao thông<br>
+                            <strong>Hình chữ nhật:</strong> Cửa ra vào, xe buýt, tòa nhà
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classification -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-xl">🎨 Phân Loại Theo Đặc Điểm</h2>
+
+            <div class="practice-section">
+                <div class="card mb-xl">
+                    <h3>Bài Tập 1: Phân Loại Theo Hình Dạng</h3>
+                    <p>Hãy nhóm các hình giống nhau vào cùng một nhóm:</p>
+                    <div
+                        style="background: var(--color-bg-secondary); padding: var(--spacing-xl); border-radius: var(--radius-md); margin-top: var(--spacing-lg);">
+                        <div
+                            style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: var(--spacing-lg); font-size: 3rem; text-align: center;">
+                            <div>⭕</div>
+                            <div>⬜</div>
+                            <div>⭕</div>
+                            <div>🔺</div>
+                            <div>⬜</div>
+                            <div>▭</div>
+                            <div>⭕</div>
+                            <div>🔺</div>
+                        </div>
+                        <p
+                            style="margin-top: var(--spacing-lg); text-align: center; color: var(--color-text-secondary);">
+                            Nhóm hình tròn có: 3 hình<br>
+                            Nhóm hình vuông có: 2 hình<br>
+                            Nhóm hình tam giác có: 2 hình<br>
+                            Nhóm hình chữ nhật có: 1 hình
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>Bài Tập 2: Phân Loại Theo Màu Sắc</h3>
+                        <p>Nhóm các hình cùng màu:</p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md); font-size: 2rem; line-height: 2.5;">
+                            <span style="color: #EF4444;">⭕⬜🔺</span><br>
+                            <span style="color: #3B82F6;">⭕⬜▭</span><br>
+                            <span style="color: #10B981;">⭕🔺▭</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Bài Tập 3: Phân Loại Theo Kích Thước</h3>
+                        <p>Sắp xếp từ nhỏ đến lớn:</p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md); display: flex; justify-content: center; align-items: flex-end; gap: var(--spacing-md);">
+                            <div style="font-size: 1rem;">⭕</div>
+                            <div style="font-size: 2rem;">⭕</div>
+                            <div style="font-size: 3rem;">⭕</div>
+                            <div style="font-size: 4rem;">⭕</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patterns -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-xl">🧩 Tìm Quy Luật</h2>
+
+            <div class="card">
+                <h3 class="text-center mb-lg">Hình Tiếp Theo Là Gì?</h3>
+                <p class="text-center">Quan sát quy luật lặp lại và tìm hình tiếp theo:</p>
+
+                <div
+                    style="background: var(--color-bg-secondary); padding: var(--spacing-xl); border-radius: var(--radius-md); margin: var(--spacing-xl) 0;">
+                    <div style="text-align: center; font-size: 3rem; margin-bottom: var(--spacing-lg);">
+                        ⭕ ⬜ ⭕ ⬜ ⭕ ?
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Đáp án: ⬜ (hình vuông)
+                    </p>
+                </div>
+
+                <div
+                    style="background: var(--color-bg-secondary); padding: var(--spacing-xl); border-radius: var(--radius-md); margin: var(--spacing-xl) 0;">
+                    <div style="text-align: center; font-size: 3rem; margin-bottom: var(--spacing-lg);">
+                        🔺 🔺 ⭕ 🔺 🔺 ⭕ 🔺 🔺 ?
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Đáp án: ⭕ (hình tròn)
+                    </p>
+                </div>
+
+                <div
+                    style="background: var(--color-bg-secondary); padding: var(--spacing-xl); border-radius: var(--radius-md); margin: var(--spacing-xl) 0;">
+                    <div style="text-align: center; font-size: 3rem; margin-bottom: var(--spacing-lg);">
+                        <span style="color: #EF4444;">⭕</span>
+                        <span style="color: #3B82F6;">⭕</span>
+                        <span style="color: #10B981;">⭕</span>
+                        <span style="color: #EF4444;">⭕</span>
+                        <span style="color: #3B82F6;">⭕</span> ?
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Đáp án: <span style="color: #10B981;">⭕ Hình tròn màu xanh lá</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logic Problems -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-xl">🤔 Bài Toán Tư Duy Logic</h2>
+
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Bài toán 1: Tìm hình khác biệt</h3>
+                    <div
+                        style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin: var(--spacing-md) 0; text-align: center; font-size: 2.5rem; line-height: 2;">
+                        ⭕ ⭕ ⭕ ⬜ ⭕
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Hình nào khác? (Hình vuông)
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Bài toán 2: Hình nào lớn nhất?</h3>
+                    <div
+                        style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin: var(--spacing-md) 0; display: flex; justify-content: center; align-items: center; gap: var(--spacing-md);">
+                        <span style="font-size: 2rem;">⭕</span>
+                        <span style="font-size: 4rem; color: var(--color-primary);">⭕</span>
+                        <span style="font-size: 3rem;">⭕</span>
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Hình tròn màu xanh ở giữa
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Bài toán 3: Đếm số hình tam giác</h3>
+                    <div
+                        style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin: var(--spacing-md) 0; text-align: center; font-size: 2rem; line-height: 2;">
+                        🔺 ⭕ 🔺 ⬜ 🔺 ▭ 🔺 ⭕ 🔺
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Có bao nhiêu hình tam giác? (5 hình)
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Bài toán 4: Ghép hình</h3>
+                    <div
+                        style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin: var(--spacing-md) 0;">
+                        <p style="margin-bottom: var(--spacing-md); text-align: center;">Ghép 2 hình tam giác 🔺🔺</p>
+                        <p style="text-align: center; font-size: 2rem; color: var(--color-primary);">
+                            → Tạo thành hình gì?
+                        </p>
+                    </div>
+                    <p style="text-align: center; color: var(--color-primary); font-weight: 600;">
+                        Có thể tạo hình vuông hoặc hình chữ nhật!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parent Tips -->
+    <section class="section">
+        <div class="container">
+            <div class="parent-tips">
+                <h2>👨‍👩‍👧 Gợi Ý Cho Phụ Huynh</h2>
+
+                <div class="grid grid-2 mt-lg">
+                    <div class="card">
+                        <h3>💡 Hoạt Động Thực Hành Hình Học</h3>
+                        <ul style="line-height: 2; color: var(--color-text-secondary);">
+                            <li><strong>Săn hình:</strong> Đi dạo và tìm các hình xung quanh nhà, trên đường</li>
+                            <li><strong>Vẽ hình:</strong> Cho trẻ vẽ các hình cơ bản bằng bút màu</li>
+                            <li><strong>Xếp hình:</strong> Dùng khối gỗ, xốp để xếp thành các hình</li>
+                            <li><strong>Cắt dán:</strong> Cắt giấy thành các hình và tạo tranh ghép</li>
+                            <li><strong>Nặn đất sét:</strong> Nặn thành các hình cơ bản</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>🎯 Phát Triển Tư Duy Logic</h3>
+                        <ul style="line-height: 2; color: var(--color-text-secondary);">
+                            <li>Chơi xếp hình puzzle đơn giản</li>
+                            <li>Phân loại đồ chơi theo màu, hình, kích thước</li>
+                            <li>Tìm quy luật trong các họa tiết, hoa văn</li>
+                            <li>Chơi trò "Tìm điểm khác biệt"</li>
+                            <li>Sắp xếp vật thể theo thứ tự logic</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mt-lg" style="background: white;">
+                    <h3>🎯 Dấu Hiệu Bé Đã Hiểu Bài</h3>
+                    <p style="margin: var(--spacing-md) 0; color: var(--color-text-secondary); line-height: 2;">
+                        ✅ Nhận biết và gọi đúng tên 4 hình cơ bản<br>
+                        ✅ Phân biệt được đặc điểm của từng hình<br>
+                        ✅ Tìm được các hình trong cuộc sống hàng ngày<br>
+                        ✅ Phân loại được theo nhiều tiêu chí khác nhau<br>
+                        ✅ Tìm được quy luật đơn giản và giải bài toán logic cơ bản
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Completion -->
+    <section class="section section-alt">
+        <div class="container text-center">
+            <h2 class="mb-lg">🎉 Chúc Mừng Bé Đã Hoàn Thành Chương Trình!</h2>
+            <p style="font-size: var(--font-size-lg); max-width: 700px; margin: 0 auto var(--spacing-xl);">
+                Bé đã học xong 4 chủ đề toán học cơ bản! Hãy tiếp tục ôn luyện và khám phá thêm nhé.
+                Bé thật tuyệt vời! 🌟
+            </p>
+            <div style="font-size: 4rem; margin: var(--spacing-xl) 0;">🏆🎊🎈</div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section class="section">
+        <div class="container">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--spacing-md);">
+                <a href="lesson-arithmetic.html" class="btn btn-outline">← Bài Trước: Cộng Trừ Cơ Bản</a>
+                <a href="curriculum.html" class="btn btn-primary">Xem Lại Chương Trình →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Học Toán Vui - Design by BynByn</p>
+            <p style="margin-top: var(--spacing-sm);">
+                Được thiết kế với ❤️ để giúp các bé yêu toán học hơn mỗi ngày
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

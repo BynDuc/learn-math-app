@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "type": "addition",
+        "question": "1 + 1 = ?",
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 2,
+        "type": "addition",
+        "question": "1 + 2 = ?",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 3,
+        "type": "addition",
+        "question": "1 + 3 = ?",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 4,
+        "type": "addition",
+        "question": "1 + 4 = ?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 5,
+        "type": "addition",
+        "question": "2 + 1 = ?",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 6,
+        "type": "addition",
+        "question": "2 + 2 = ?",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 7,
+        "type": "addition",
+        "question": "2 + 3 = ?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 8,
+        "type": "addition",
+        "question": "2 + 4 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 9,
+        "type": "addition",
+        "question": "3 + 1 = ?",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 10,
+        "type": "addition",
+        "question": "3 + 2 = ?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 11,
+        "type": "addition",
+        "question": "3 + 3 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 12,
+        "type": "addition",
+        "question": "3 + 4 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 13,
+        "type": "addition",
+        "question": "4 + 1 = ?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 14,
+        "type": "addition",
+        "question": "4 + 2 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 15,
+        "type": "addition",
+        "question": "4 + 3 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 16,
+        "type": "addition",
+        "question": "4 + 4 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 17,
+        "type": "addition",
+        "question": "5 + 1 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 18,
+        "type": "addition",
+        "question": "5 + 2 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 19,
+        "type": "addition",
+        "question": "5 + 3 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 20,
+        "type": "addition",
+        "question": "5 + 4 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 21,
+        "type": "addition",
+        "question": "5 + 5 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 22,
+        "type": "addition",
+        "question": "6 + 1 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 23,
+        "type": "addition",
+        "question": "6 + 2 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 24,
+        "type": "addition",
+        "question": "6 + 3 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 25,
+        "type": "addition",
+        "question": "6 + 4 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 26,
+        "type": "addition",
+        "question": "7 + 1 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 27,
+        "type": "addition",
+        "question": "7 + 2 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 28,
+        "type": "addition",
+        "question": "7 + 3 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 29,
+        "type": "addition",
+        "question": "8 + 1 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 30,
+        "type": "addition",
+        "question": "8 + 2 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 31,
+        "type": "addition",
+        "question": "9 + 1 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 32,
+        "type": "addition",
+        "question": "0 + 5 = ?",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 33,
+        "type": "addition",
+        "question": "0 + 7 = ?",
+        "correctAnswer": "7",
+        "difficulty": 1,
+        "category": "basic-addition"
+    },
+    {
+        "id": 34,
+        "type": "addition",
+        "question": "1 + 5 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 35,
+        "type": "addition",
+        "question": "1 + 6 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 36,
+        "type": "addition",
+        "question": "1 + 7 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 37,
+        "type": "addition",
+        "question": "1 + 8 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 38,
+        "type": "addition",
+        "question": "1 + 9 = ?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 39,
+        "type": "addition",
+        "question": "2 + 5 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 40,
+        "type": "addition",
+        "question": "2 + 6 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-addition"
+    },
+    {
+        "id": 41,
+        "type": "subtraction",
+        "question": "2 - 1 = ?",
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 42,
+        "type": "subtraction",
+        "question": "3 - 1 = ?",
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 43,
+        "type": "subtraction",
+        "question": "3 - 2 = ?",
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 44,
+        "type": "subtraction",
+        "question": "4 - 1 = ?",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 45,
+        "type": "subtraction",
+        "question": "4 - 2 = ?",
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 46,
+        "type": "subtraction",
+        "question": "4 - 3 = ?",
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 47,
+        "type": "subtraction",
+        "question": "5 - 1 = ?",
+        "correctAnswer": "4",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 48,
+        "type": "subtraction",
+        "question": "5 - 2 = ?",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 49,
+        "type": "subtraction",
+        "question": "5 - 3 = ?",
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 50,
+        "type": "subtraction",
+        "question": "5 - 4 = ?",
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 51,
+        "type": "subtraction",
+        "question": "6 - 1 = ?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 52,
+        "type": "subtraction",
+        "question": "6 - 2 = ?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 53,
+        "type": "subtraction",
+        "question": "6 - 3 = ?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 54,
+        "type": "subtraction",
+        "question": "6 - 4 = ?",
+        "correctAnswer": "2",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 55,
+        "type": "subtraction",
+        "question": "6 - 5 = ?",
+        "correctAnswer": "1",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 56,
+        "type": "subtraction",
+        "question": "7 - 1 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 57,
+        "type": "subtraction",
+        "question": "7 - 2 = ?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 58,
+        "type": "subtraction",
+        "question": "7 - 3 = ?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 59,
+        "type": "subtraction",
+        "question": "7 - 4 = ?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 60,
+        "type": "subtraction",
+        "question": "7 - 5 = ?",
+        "correctAnswer": "2",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 61,
+        "type": "subtraction",
+        "question": "8 - 1 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 62,
+        "type": "subtraction",
+        "question": "8 - 2 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 63,
+        "type": "subtraction",
+        "question": "8 - 3 = ?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 64,
+        "type": "subtraction",
+        "question": "8 - 4 = ?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 65,
+        "type": "subtraction",
+        "question": "9 - 1 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 66,
+        "type": "subtraction",
+        "question": "9 - 2 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 67,
+        "type": "subtraction",
+        "question": "9 - 3 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 68,
+        "type": "subtraction",
+        "question": "9 - 4 = ?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 69,
+        "type": "subtraction",
+        "question": "10 - 1 = ?",
+        "correctAnswer": "9",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 70,
+        "type": "subtraction",
+        "question": "10 - 2 = ?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 71,
+        "type": "subtraction",
+        "question": "10 - 3 = ?",
+        "correctAnswer": "7",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 72,
+        "type": "subtraction",
+        "question": "10 - 4 = ?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 73,
+        "type": "subtraction",
+        "question": "10 - 5 = ?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 74,
+        "type": "subtraction",
+        "question": "7 - 6 = ?",
+        "correctAnswer": "1",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 75,
+        "type": "subtraction",
+        "question": "8 - 5 = ?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 76,
+        "type": "subtraction",
+        "question": "9 - 5 = ?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 77,
+        "type": "subtraction",
+        "question": "10 - 6 = ?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 78,
+        "type": "subtraction",
+        "question": "10 - 7 = ?",
+        "correctAnswer": "3",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 79,
+        "type": "subtraction",
+        "question": "10 - 8 = ?",
+        "correctAnswer": "2",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 80,
+        "type": "subtraction",
+        "question": "10 - 9 = ?",
+        "correctAnswer": "1",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 81,
+        "type": "word-problem",
+        "question": "Bé có 3 quả táo. Mẹ cho thêm 2 quả. Bé có bao nhiêu quả táo?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 82,
+        "type": "word-problem",
+        "question": "Trong giỏ có 7 quả cam. Bé ăn mất 3 quả. Còn lại bao nhiêu quả?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 83,
+        "type": "word-problem",
+        "question": "Bạn An có 4 chiếc bút. Bạn Bình cho thêm 4 chiếc. An có bao nhiêu chiếc bút?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 84,
+        "type": "word-problem",
+        "question": "Có 10 con chim trên cây. 6 con bay đi. Còn lại bao nhiêu con?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 85,
+        "type": "word-problem",
+        "question": "Bé có 5 viên kẹo. Bạn cho thêm 3 viên. Bé có bao nhiêu viên kẹo?",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 86,
+        "type": "word-problem",
+        "question": "Mẹ làm 9 chiếc bánh. Bé ăn 4 chiếc. Còn lại bao nhiêu chiếc?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 87,
+        "type": "word-problem",
+        "question": "Bé có 2 quả bóng. Bố mua thêm 3 quả. Bé có bao nhiêu quả bóng?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 88,
+        "type": "word-problem",
+        "question": "Có 8 cái bánh quy. Bé ăn 3 cái. Còn lại bao nhiêu cái?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 89,
+        "type": "word-problem",
+        "question": "Trong ao có 6 con cá. Thả thêm 4 con. Có bao nhiêu con cá?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 90,
+        "type": "word-problem",
+        "question": "Bé có 7 bông hoa. Cho bạn 2 bông. Còn lại bao nhiêu bông?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 91,
+        "type": "word-problem",
+        "question": "Có 1 con mèo và 3 con chó. Tổng cộng có bao nhiêu con?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 92,
+        "type": "word-problem",
+        "question": "Bé có 6 chiếc xe. Cho bạn 1 chiếc. Còn lại bao nhiêu chiếc?",
+        "correctAnswer": "5",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 93,
+        "type": "word-problem",
+        "question": "Sáng bé đọc 3 trang sách. Chiều đọc thêm 5 trang. Bé đọc  bao nhiêu trang?",
+        "correctAnswer": "8",
+        "difficulty": 3,
+        "category": "addition-word"
+    },
+    {
+        "id": 94,
+        "type": "word-problem",
+        "question": "Có 10 quả táo. Chia cho 3 bạn. Còn lại bao nhiêu quả?",
+        "correctAnswer": "7",
+        "difficulty": 3,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 95,
+        "type": "word-problem",
+        "question": "Bé vẽ 4 bức tranh sáng nay. Vẽ thêm 2 bức chiều nay. Tổng cộng bao nhiêu bức?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 96,
+        "type": "word-problem",
+        "question": "Có 9 quả bóng bay. 5 quả bay mất. Còn lại bao nhiêu quả?",
+        "correctAnswer": "4",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 97,
+        "type": "word-problem",
+        "question": "Bé có 7 viên bi. Nhặt thêm 3 viên. Bé có bao nhiêu viên bi?",
+        "correctAnswer": "10",
+        "difficulty": 2,
+        "category": "addition-word"
+    },
+    {
+        "id": 98,
+        "type": "word-problem",
+        "question": "Trong hộp có 8 cái kẹo. Lấy ra 2 cái. Còn lại bao nhiêu cái?",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "subtraction-word"
+    },
+    {
+        "id": 99,
+        "type": "subtraction",
+        "question": "5 - 5 = ?",
+        "correctAnswer": "0",
+        "difficulty": 1,
+        "category": "basic-subtraction"
+    },
+    {
+        "id": 100,
+        "type": "subtraction",
+        "question": "10 - 10 = ?",
+        "correctAnswer": "0",
+        "difficulty": 2,
+        "category": "basic-subtraction"
+    }
+]

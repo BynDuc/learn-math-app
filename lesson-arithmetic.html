@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3: Cộng Trừ Cơ Bản - Học Toán Vui</title>
+    <meta name="description" content="Bài học giúp trẻ 5 tuổi làm quen với phép cộng và phép trừ đơn giản">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                🎓 Học Toán Vui
+            </a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="curriculum.html">Chương Trình Học</a></li>
+                <li><a href="index.html#about">Giới Thiệu</a></li>
+                <li><a href="index.html#benefits">Lợi Ích</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Lesson Header -->
+    <div class="lesson-header">
+        <div class="container">
+            <div
+                style="display: inline-block; background: var(--color-accent-pink); color: white; padding: var(--spacing-sm) var(--spacing-lg); border-radius: var(--radius-full); font-weight: 600; margin-bottom: var(--spacing-md);">
+                Bài Học 3
+            </div>
+            <h1>➕➖ Cộng Trừ Cơ Bản</h1>
+            <p style="font-size: var(--font-size-lg); max-width: 700px; margin: var(--spacing-lg) auto 0;">
+                Bây giờ bé sẽ học cách cộng (thêm vào) và trừ (bớt đi) - hai phép toán cơ bản và thú vị nhất!
+            </p>
+        </div>
+    </div>
+
+    <!-- Learning Objectives -->
+    <section class="section">
+        <div class="container">
+            <div class="lesson-objective">
+                <h2>🎯 Mục Tiêu Bài Học</h2>
+                <p style="margin: var(--spacing-md) 0 0; line-height: 2;">
+                    Sau khi hoàn thành bài học này, bé sẽ có thể:<br>
+                    ✅ Hiểu khái niệm "thêm vào" trong phép cộng<br>
+                    ✅ Hiểu khái niệm "bớt đi" trong phép trừ<br>
+                    ✅ Thực hiện phép cộng đơn giản trong phạm vi 10<br>
+                    ✅ Thực hiện phép trừ đơn giản trong phạm vi 10<br>
+                    ✅ Giải các bài toán có lời văn đơn giản
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Addition Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-xl">➕ Phép Cộng - Thêm Vào</h2>
+
+            <div class="card mb-xl">
+                <h3 class="text-center">🍎 Phép Cộng Là Gì?</h3>
+                <p class="text-center"
+                    style="font-size: var(--font-size-lg); max-width: 700px; margin: var(--spacing-md) auto;">
+                    Phép cộng là khi chúng ta <strong>thêm vào</strong> hoặc <strong>gộp lại</strong>.
+                    Khi cộng, số lượng sẽ <strong>nhiều hơn</strong>!
+                </p>
+
+                <div
+                    style="background: linear-gradient(135deg, #FECACA, #FCA5A5); padding: var(--spacing-2xl); border-radius: var(--radius-lg); margin: var(--spacing-xl) 0; color: white;">
+                    <div
+                        style="text-align: center; font-size: 3rem; font-family: var(--font-heading); margin-bottom: var(--spacing-lg);">
+                        2 + 3 = 5
+                    </div>
+                    <div
+                        style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: var(--spacing-md);">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🍎🍎</div>
+                            <p style="margin: 0;">2 quả táo</p>
+                        </div>
+                        <div style="font-size: 2rem;">+</div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🍎🍎🍎</div>
+                            <p style="margin: 0;">3 quả táo</p>
+                        </div>
+                        <div style="font-size: 2rem;">=</div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🍎🍎🍎🍎🍎</div>
+                            <p style="margin: 0;">5 quả táo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-lg">📚 Các Ví Dụ Phép Cộng</h3>
+            <div class="grid grid-2">
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--spacing-md);">
+                        1 + 1 = 2</div>
+                    <div style="text-align: center; font-size: 1.5rem; margin-bottom: var(--spacing-md);">⭐ + ⭐ = ⭐⭐
+                    </div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Một ngôi sao cộng một
+                        ngôi sao bằng hai ngôi sao</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--spacing-md);">
+                        2 + 2 = 4</div>
+                    <div style="text-align: center; font-size: 1.5rem; margin-bottom: var(--spacing-md);">🌸🌸 + 🌸🌸 =
+                        🌸🌸🌸🌸</div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Hai bông hoa cộng hai
+                        bông hoa bằng bốn bông hoa</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--spacing-md);">
+                        3 + 2 = 5</div>
+                    <div style="text-align: center; font-size: 1.5rem; margin-bottom: var(--spacing-md);">🎈🎈🎈 + 🎈🎈
+                        = 🎈🎈🎈🎈🎈</div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Ba quả bóng cộng hai
+                        quả bóng bằng năm quả bóng</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--spacing-md);">
+                        4 + 3 = 7</div>
+                    <div style="text-align: center; font-size: 1.5rem; margin-bottom: var(--spacing-md);">🍬🍬🍬🍬 +
+                        🍬🍬🍬 = 🍬🍬🍬🍬🍬🍬🍬</div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Bốn viên kẹo cộng ba
+                        viên kẹo bằng bảy viên kẹo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subtraction Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-xl">➖ Phép Trừ - Bớt Đi</h2>
+
+            <div class="card mb-xl">
+                <h3 class="text-center">🎈 Phép Trừ Là Gì?</h3>
+                <p class="text-center"
+                    style="font-size: var(--font-size-lg); max-width: 700px; margin: var(--spacing-md) auto;">
+                    Phép trừ là khi chúng ta <strong>bớt đi</strong> hoặc <strong>lấy ra</strong>.
+                    Khi trừ, số lượng sẽ <strong>ít hơn</strong>!
+                </p>
+
+                <div
+                    style="background: linear-gradient(135deg, #BFDBFE, #93C5FD); padding: var(--spacing-2xl); border-radius: var(--radius-lg); margin: var(--spacing-xl) 0; color: white;">
+                    <div
+                        style="text-align: center; font-size: 3rem; font-family: var(--font-heading); margin-bottom: var(--spacing-lg);">
+                        5 - 2 = 3
+                    </div>
+                    <div
+                        style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: var(--spacing-md);">
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🎈🎈🎈🎈🎈</div>
+                            <p style="margin: 0;">5 quả bóng</p>
+                        </div>
+                        <div style="font-size: 2rem;">-</div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🎈🎈</div>
+                            <p style="margin: 0;">Bớt 2 quả</p>
+                        </div>
+                        <div style="font-size: 2rem;">=</div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🎈🎈🎈</div>
+                            <p style="margin: 0;">Còn 3 quả</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-center mb-lg">📚 Các Ví Dụ Phép Trừ</h3>
+            <div class="grid grid-2">
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: var(--spacing-md);">
+                        3 - 1 = 2</div>
+                    <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                        <div style="font-size: 1.5rem;">🍎🍎🍎</div>
+                        <div style="margin: var(--spacing-sm) 0;">Bớt đi 🍎</div>
+                        <div style="font-size: 1.5rem; color: var(--color-primary);">Còn: 🍎🍎</div>
+                    </div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Ba quả táo trừ một quả
+                        bằng hai quả</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: var(--spacing-md);">
+                        4 - 2 = 2</div>
+                    <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                        <div style="font-size: 1.5rem;">⭐⭐⭐⭐</div>
+                        <div style="margin: var(--spacing-sm) 0;">Bớt đi ⭐⭐</div>
+                        <div style="font-size: 1.5rem; color: var(--color-primary);">Còn: ⭐⭐</div>
+                    </div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Bốn ngôi sao trừ hai
+                        ngôi sao bằng hai ngôi sao</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: var(--spacing-md);">
+                        6 - 3 = 3</div>
+                    <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                        <div style="font-size: 1.5rem;">🌸🌸🌸🌸🌸🌸</div>
+                        <div style="margin: var(--spacing-sm) 0;">Bớt đi 🌸🌸🌸</div>
+                        <div style="font-size: 1.5rem; color: var(--color-primary);">Còn: 🌸🌸🌸</div>
+                    </div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Sáu bông hoa trừ ba
+                        bông hoa bằng ba bông hoa</p>
+                </div>
+
+                <div
+                    style="background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div
+                        style="text-align: center; font-size: 2rem; font-weight: 700; color: var(--color-secondary); margin-bottom: var(--spacing-md);">
+                        5 - 5 = 0</div>
+                    <div style="text-align: center; margin-bottom: var(--spacing-md);">
+                        <div style="font-size: 1.5rem;">🍬🍬🍬🍬🍬</div>
+                        <div style="margin: var(--spacing-sm) 0;">Bớt đi 🍬🍬🍬🍬🍬</div>
+                        <div style="font-size: 1.5rem; color: var(--color-primary);">Còn: 0 (không còn gì)</div>
+                    </div>
+                    <p style="text-align: center; margin: 0; color: var(--color-text-secondary);">Năm viên kẹo trừ năm
+                        viên kẹo bằng không</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Word Problems -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-xl">📖 Bài Toán Có Lời Văn</h2>
+            <p class="text-center mb-xl" style="font-size: var(--font-size-lg);">
+                Hãy cùng giải những bài toán thú vị từ cuộc sống hàng ngày!
+            </p>
+
+            <div class="practice-section">
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3 style="color: var(--color-primary);">🐦 Bài Toán Cộng 1</h3>
+                        <p style="line-height: 2;">
+                            Trên cành cây có <strong>3 con chim</strong>.
+                            Sau đó có thêm <strong>2 con chim</strong> bay đến ngồi.
+                            Vậy trên cành cây có bao nhiêu con chim?
+                        </p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+                            <p
+                                style="margin: 0; text-align: center; font-size: var(--font-size-xl); color: var(--color-primary);">
+                                <strong>3 + 2 = ?</strong>
+                            </p>
+                            <p
+                                style="margin-top: var(--spacing-md); text-align: center; color: var(--color-text-secondary);">
+                                (Đáp án: 5 con chim)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--color-secondary);">🍪 Bài Toán Trừ 1</h3>
+                        <p style="line-height: 2;">
+                            Mẹ làm <strong>7 chiếc bánh quy</strong>.
+                            Bé ăn mất <strong>3 chiếc</strong>.
+                            Vậy còn lại bao nhiêu chiếc bánh quy?
+                        </p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+                            <p
+                                style="margin: 0; text-align: center; font-size: var(--font-size-xl); color: var(--color-secondary);">
+                                <strong>7 - 3 = ?</strong>
+                            </p>
+                            <p
+                                style="margin-top: var(--spacing-md); text-align: center; color: var(--color-text-secondary);">
+                                (Đáp án: 4 chiếc bánh quy)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--color-primary);">🚗 Bài Toán Cộng 2</h3>
+                        <p style="line-height: 2;">
+                            Trong bãi đỗ xe có <strong>4 chiếc ô tô</strong>.
+                            Sau đó có thêm <strong>4 chiếc</strong> đỗ vào.
+                            Vậy bây giờ có bao nhiêu chiếc ô tô?
+                        </p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+                            <p
+                                style="margin: 0; text-align: center; font-size: var(--font-size-xl); color: var(--color-primary);">
+                                <strong>4 + 4 = ?</strong>
+                            </p>
+                            <p
+                                style="margin-top: var(--spacing-md); text-align: center; color: var(--color-text-secondary);">
+                                (Đáp án: 8 chiếc ô tô)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--color-secondary);">🎈 Bài Toán Trừ 2</h3>
+                        <p style="line-height: 2;">
+                            Bé có <strong>10 quả bóng bay</strong>.
+                            <strong>6 quả</strong> bay mất.
+                            Vậy bé còn lại bao nhiêu quả bóng bay?
+                        </p>
+                        <div
+                            style="background: var(--color-bg-secondary); padding: var(--spacing-lg); border-radius: var(--radius-md); margin-top: var(--spacing-md);">
+                            <p
+                                style="margin: 0; text-align: center; font-size: var(--font-size-xl); color: var(--color-secondary);">
+                                <strong>10 - 6 = ?</strong>
+                            </p>
+                            <p
+                                style="margin-top: var(--spacing-md); text-align: center; color: var(--color-text-secondary);">
+                                (Đáp án: 4 quả bóng bay)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice -->
+    <section class="section">
+        <div class="container">
+            <div class="lesson-content">
+                <h2 class="text-center mb-lg">✏️ Bài Tập Thực Hành</h2>
+                <img src="addition_subtraction.webp" alt="Minh họa cộng trừ"
+                    style="width: 100%; max-width: 600px; display: block; margin: 0 auto var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>🔢 Bài Tập Cộng</h3>
+                        <div style="line-height: 2.5; color: var(--color-text-secondary);">
+                            1 + 2 = ?<br>
+                            2 + 3 = ?<br>
+                            3 + 3 = ?<br>
+                            4 + 2 = ?<br>
+                            5 + 5 = ?
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>🔢 Bài Tập Trừ</h3>
+                        <div style="line-height: 2.5; color: var(--color-text-secondary);">
+                            3 - 1 = ?<br>
+                            5 - 2 = ?<br>
+                            6 - 3 = ?<br>
+                            8 - 4 = ?<br>
+                            10 - 5 = ?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parent Tips -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="parent-tips">
+                <h2>👨‍👩‍👧 Gợi Ý Cho Phụ Huynh</h2>
+
+                <div class="card mt-lg">
+                    <h3>💡 Hoạt Động Thực Hành Cộng Trừ</h3>
+                    <div class="grid grid-2" style="margin-top: var(--spacing-lg);">
+                        <ul style="line-height: 2; color: var(--color-text-secondary);">
+                            <li><strong>Dùng đồ vật thật:</strong> Dùng kẹo, đồ chơi, trái cây để minh họa</li>
+                            <li><strong>Kể chuyện:</strong> Biến phép tính thành câu chuyện hằng ngày</li>
+                            <li><strong>Chơi trò chơi:</strong> "Mẹ cho con 2 kẹo, bà cho thêm 3 kẹo, con có mấy kẹo?"
+                            </li>
+                        </ul>
+                        <ul style="line-height: 2; color: var(--color-text-secondary);">
+                            <li><strong>Vẽ minh họa:</strong> Cho trẻ vẽ hình tròn hoặc que tính để tính toán</li>
+                            <li><strong>Sử dụng ngón tay:</strong> Đếm trên ngón tay để cộng trừ</li>
+                            <li><strong>Lặp lại nhiều lần:</strong> Thực hành mỗi ngày với các tình huống khác nhau</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mt-lg" style="background: white;">
+                    <h3>🎯 Dấu Hiệu Bé Đã Hiểu Bài</h3>
+                    <p style="margin: var(--spacing-md) 0; color: var(--color-text-secondary); line-height: 2;">
+                        ✅ Hiểu phép cộng là "thêm vào", phép trừ là "bớt đi"<br>
+                        ✅ Giải được các phép cộng, trừ đơn giản trong phạm vi 10<br>
+                        ✅ Có thể giải bài toán có lời văn đơn giản<br>
+                        ✅ Biết khi nào dùng cộng, khi nào dùng trừ<br>
+                        ✅ Tự tin khi làm bài tập cộng trừ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section class="section">
+        <div class="container">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--spacing-md);">
+                <a href="lesson-counting.html" class="btn btn-outline">← Bài Trước: Đếm Và So Sánh</a>
+                <a href="lesson-geometry.html" class="btn btn-primary">Bài Tiếp Theo: Hình Học & Logic →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Học Toán Vui - Design by BynByn</p>
+            <p style="margin-top: var(--spacing-sm);">
+                Được thiết kế với ❤️ để giúp các bé yêu toán học hơn mỗi ngày
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
