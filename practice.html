@@ -377,7 +377,7 @@
             const visualArea = document.getElementById('visualArea');
             const questionText = exercise.question;
 
-            // Map keywords to illustration files
+            // Map keywords to illustration files (only for geometry questions)
             const illustrationMap = {
                 'hình tam giác': 'images/triangle_corners.png',
                 'tam giác': 'images/triangle_corners.png',
@@ -385,9 +385,8 @@
                 'vuông': 'images/square_corners.png',
                 'hình tròn': 'images/circle_no_corners.png',
                 'tròn': 'images/circle_no_corners.png',
-                'hình chữ nhật': 'images/square_corners.png',
-                'cộng': 'images/addition_example.png',
-                '+ ': 'images/addition_example.png'
+                'hình chữ nhật': 'images/square_corners.png'
+                // Removed generic 'cộng' and '+' mappings to avoid showing wrong illustrations
             };
 
             // Find matching illustration

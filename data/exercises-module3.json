@@ -1,802 +1,1402 @@
 [
     {
         "id": 1,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 1 = ?",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 2,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 2 = ?",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 3,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 3 = ?",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 4,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 4 = ?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 5,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 1 = ?",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 6,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 2 = ?",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 7,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 3 = ?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 8,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 4 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 9,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "3 + 1 = ?",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 10,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "3 + 2 = ?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 11,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "3 + 3 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 12,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "3 + 4 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 13,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "4 + 1 = ?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 14,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "4 + 2 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 15,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "4 + 3 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 16,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "4 + 4 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 17,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "5 + 1 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 18,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "5 + 2 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 19,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "5 + 3 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 20,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "5 + 4 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 21,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "5 + 5 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 22,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "6 + 1 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 23,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "6 + 2 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 24,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "6 + 3 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 25,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "6 + 4 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 26,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "7 + 1 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 27,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "7 + 2 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 28,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "7 + 3 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 29,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "8 + 1 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 30,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "8 + 2 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 31,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "9 + 1 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 32,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "0 + 5 = ?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 33,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "0 + 7 = ?",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 34,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 5 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 35,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 6 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 36,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 7 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 37,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 8 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 38,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "1 + 9 = ?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 39,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 5 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 40,
-        "type": "addition",
+        "type": "multiple-choice",
         "question": "2 + 6 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-addition"
+        "category": "basic-addition",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 41,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "2 - 1 = ?",
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 42,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "3 - 1 = ?",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 43,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "3 - 2 = ?",
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 44,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "4 - 1 = ?",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 45,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "4 - 2 = ?",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 46,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "4 - 3 = ?",
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 47,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "5 - 1 = ?",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 48,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "5 - 2 = ?",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 49,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "5 - 3 = ?",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 50,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "5 - 4 = ?",
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 51,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "6 - 1 = ?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 52,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "6 - 2 = ?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 53,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "6 - 3 = ?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 54,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "6 - 4 = ?",
         "correctAnswer": "2",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 55,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "6 - 5 = ?",
         "correctAnswer": "1",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 56,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 1 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 57,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 2 = ?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 58,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 3 = ?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 59,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 4 = ?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 60,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 5 = ?",
         "correctAnswer": "2",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 61,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "8 - 1 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 62,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "8 - 2 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 63,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "8 - 3 = ?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 64,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "8 - 4 = ?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 65,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "9 - 1 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 66,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "9 - 2 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 67,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "9 - 3 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 68,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "9 - 4 = ?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 69,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 1 = ?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 70,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 2 = ?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 71,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 3 = ?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 72,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 4 = ?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 73,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 5 = ?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 74,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "7 - 6 = ?",
         "correctAnswer": "1",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 75,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "8 - 5 = ?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 76,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "9 - 5 = ?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 77,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 6 = ?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 78,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 7 = ?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 79,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 8 = ?",
         "correctAnswer": "2",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 80,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 9 = ?",
         "correctAnswer": "1",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 81,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 3 quả táo. Mẹ cho thêm 2 quả. Bé có bao nhiêu quả táo?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 82,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Trong giỏ có 7 quả cam. Bé ăn mất 3 quả. Còn lại bao nhiêu quả?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 83,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bạn An có 4 chiếc bút. Bạn Bình cho thêm 4 chiếc. An có bao nhiêu chiếc bút?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 84,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Có 10 con chim trên cây. 6 con bay đi. Còn lại bao nhiêu con?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 85,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 5 viên kẹo. Bạn cho thêm 3 viên. Bé có bao nhiêu viên kẹo?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 86,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Mẹ làm 9 chiếc bánh. Bé ăn 4 chiếc. Còn lại bao nhiêu chiếc?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 87,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 2 quả bóng. Bố mua thêm 3 quả. Bé có bao nhiêu quả bóng?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 88,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Có 8 cái bánh quy. Bé ăn 3 cái. Còn lại bao nhiêu cái?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 89,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Trong ao có 6 con cá. Thả thêm 4 con. Có bao nhiêu con cá?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 90,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 7 bông hoa. Cho bạn 2 bông. Còn lại bao nhiêu bông?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 91,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Có 1 con mèo và 3 con chó. Tổng cộng có bao nhiêu con?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 92,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 6 chiếc xe. Cho bạn 1 chiếc. Còn lại bao nhiêu chiếc?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 93,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Sáng bé đọc 3 trang sách. Chiều đọc thêm 5 trang. Bé đọc  bao nhiêu trang?",
         "correctAnswer": "8",
         "difficulty": 3,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 94,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Có 10 quả táo. Chia cho 3 bạn. Còn lại bao nhiêu quả?",
         "correctAnswer": "7",
         "difficulty": 3,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 95,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé vẽ 4 bức tranh sáng nay. Vẽ thêm 2 bức chiều nay. Tổng cộng bao nhiêu bức?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 96,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Có 9 quả bóng bay. 5 quả bay mất. Còn lại bao nhiêu quả?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 97,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Bé có 7 viên bi. Nhặt thêm 3 viên. Bé có bao nhiêu viên bi?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "addition-word"
+        "category": "addition-word",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 98,
-        "type": "word-problem",
+        "type": "multiple-choice",
         "question": "Trong hộp có 8 cái kẹo. Lấy ra 2 cái. Còn lại bao nhiêu cái?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "subtraction-word"
+        "category": "subtraction-word",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 99,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "5 - 5 = ?",
         "correctAnswer": "0",
         "difficulty": 1,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 100,
-        "type": "subtraction",
+        "type": "multiple-choice",
         "question": "10 - 10 = ?",
         "correctAnswer": "0",
         "difficulty": 2,
-        "category": "basic-subtraction"
+        "category": "basic-subtraction",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     }
 ]

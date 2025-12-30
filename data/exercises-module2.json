@@ -1,43 +1,73 @@
 [
     {
         "id": 1,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số táo: 🍎🍎🍎🍎🍎",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 2,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số sao: ⭐⭐⭐⭐⭐⭐⭐",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 3,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số hoa: 🌸🌸🌸🌸🌸🌸🌸🌸🌸",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 4,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số bóng: 🎈🎈🎈🎈🎈🎈",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 5,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số kẹo: 🍬🍬🍬🍬",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 6,
@@ -134,27 +164,45 @@
     },
     {
         "id": 13,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số xe: 🚗🚗🚗🚗🚗🚗🚗🚗",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 14,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con bướm: 🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 15,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cây: 🌳🌳🌳",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 16,
@@ -222,43 +270,73 @@
     },
     {
         "id": 21,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số quả cam: 🍊🍊🍊🍊🍊🍊🍊",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 22,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số trái tim: ❤️❤️❤️❤️❤️❤️❤️❤️❤️",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 23,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số mặt trời: ☀️☀️☀️☀️☀️☀️",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 24,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số nốt nhạc: 🎵🎵🎵🎵",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 25,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái cốc: 🥤🥤🥤🥤🥤🥤🥤🥤",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 26,
@@ -352,27 +430,45 @@
     },
     {
         "id": 33,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái nón: 🎩🎩🎩🎩🎩",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 34,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái ô: ☂️☂️☂️☂️☂️☂️☂️",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 35,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số quả bóng đá: ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 36,
@@ -441,43 +537,73 @@
     },
     {
         "id": 41,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc lá: 🍃🍃🍃🍃🍃🍃",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 42,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con cá: 🐟🐟🐟🐟🐟🐟🐟🐟",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 43,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con chim: 🐦🐦🐦🐦🐦🐦🐦🐦🐦",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 44,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái bánh: 🍰🍰🍰🍰🍰",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 45,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái kẹo mút: 🍭🍭🍭🍭🍭🍭🍭",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 46,
@@ -545,43 +671,73 @@
     },
     {
         "id": 51,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái đồng hồ: ⏰⏰⏰⏰",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 52,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái chuông: 🔔🔔🔔🔔🔔🔔🔔🔔",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 53,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con ong: 🐝🐝🐝🐝🐝🐝🐝🐝🐝🐝",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 54,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cuốn sách: 📚📚📚📚📚📚",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 55,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc lá phong: 🍁🍁🍁🍁🍁🍁🍁",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 56,
@@ -705,43 +861,73 @@
     },
     {
         "id": 65,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc bánh quy: 🍪🍪🍪🍪🍪🍪🍪🍪🍪",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 66,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số viên kim cương: 💎💎💎💎💎",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 67,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc chìa khóa: 🔑🔑🔑🔑🔑🔑🔑",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 68,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái kính: 👓👓👓👓👓👓",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 69,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc giày: 👟👟👟👟👟👟👟👟",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 70,
@@ -859,43 +1045,73 @@
     },
     {
         "id": 79,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc mũ: 🎓🎓🎓🎓🎓🎓🎓🎓🎓🎓",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 80,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con rùa: 🐢🐢🐢🐢",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 81,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con ếch: 🐸🐸🐸🐸🐸🐸🐸",
         "correctAnswer": "7",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 82,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con bọ rùa: 🐞🐞🐞🐞🐞🐞",
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 83,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số con bạch tuộc: 🐙🐙🐙🐙🐙🐙🐙🐙🐙",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 84,
@@ -1032,27 +1248,45 @@
     },
     {
         "id": 94,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số cái bánh pizza: 🍕🍕🍕🍕🍕🍕🍕🍕",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 95,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số ly nước: 🥛🥛🥛🥛🥛",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 96,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số chiếc diều: 🪁🪁🪁🪁🪁🪁🪁🪁🪁🪁",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "basic-counting"
+        "category": "basic-counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 97,

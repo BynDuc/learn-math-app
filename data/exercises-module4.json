@@ -113,35 +113,59 @@
     },
     {
         "id": 9,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ⭕⬜⭕🔺⭕. Có mấy hình tròn?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 10,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ⬜⬜🔺⬜▭⬜. Có mấy hình vuông?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 11,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: 🔺⭕🔺🔺⬜🔺. Có mấy hình tam giác?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 12,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ▭▭⭕▭⬜▭. Có mấy hình chữ nhật?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 13,
@@ -309,35 +333,59 @@
     },
     {
         "id": 25,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ⭕⭕⭕⭕⭕. Có mấy hình?",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 26,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ⬜⬜⬜⬜⬜⬜⬜. Có mấy hình?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 27,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: 🔺🔺🔺🔺🔺🔺🔺🔺🔺. Có mấy hình?",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 28,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình giống nhau: ▭▭▭▭▭▭. Có mấy hình?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 29,
@@ -411,27 +459,45 @@
     },
     {
         "id": 34,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Tất cả hình: ⭕⬜🔺▭. Có bao nhiêu hình?",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 35,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Tất cả hình: ⭕⭕⬜⬜🔺🔺▭▭. Có bao nhiêu hình?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 36,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Tất cả hình: ⭕⬜⭕⬜⭕⬜⭕⬜⭕⬜. Có bao nhiêu hình?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 37,
@@ -547,35 +613,59 @@
     },
     {
         "id": 45,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong nhóm ⭕🔺⬜⭕▭⭕, có bao nhiêu hình tròn?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 46,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong nhóm ⬜⬜🔺⬜⭕⬜▭⬜, có bao nhiêu hình vuông?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 47,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong nhóm 🔺⭕🔺⬜🔺▭🔺, có bao nhiêu hình tam giác?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 48,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong nhóm ▭⭕▭🔺▭⬜▭, có bao nhiêu hình chữ nhật?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 49,
@@ -705,27 +795,45 @@
     },
     {
         "id": 58,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình: ⭕⭕⭕⬜⬜⬜. Có bao nhiêu loại hình?",
         "correctAnswer": "2",
         "difficulty": 2,
-        "category": "classification"
+        "category": "classification",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 59,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình: ⭕⬜🔺▭. Có bao nhiêu loại hình?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "classification"
+        "category": "classification",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 60,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Nhóm hình: ⭕⭕⬜⬜🔺🔺. Có bao nhiêu loại hình?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "classification"
+        "category": "classification",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 61,
@@ -813,35 +921,59 @@
     },
     {
         "id": 67,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⭕⭕⭕⭕⭕⭕⭕, có bao nhiêu hình tròn?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 68,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜, có bao nhiêu hình vuông?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 69,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong 🔺🔺🔺🔺🔺🔺, có bao nhiêu hình tam giác?",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 70,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ▭▭▭▭▭▭▭, có bao nhiêu hình chữ nhật?",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 71,
@@ -943,27 +1075,45 @@
     },
     {
         "id": 78,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⬜⭕🔺⭕▭⭕, có bao nhiêu hình tròn?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 79,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong 🔺⬜🔺⬜🔺⬜🔺⬜🔺, có bao nhiêu hình tam giác?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 80,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ▭⭕▭⭕▭⭕▭⭕▭⭕, có bao nhiêu hình chữ nhật?",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 81,
@@ -1051,27 +1201,45 @@
     },
     {
         "id": 87,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕, có bao nhiêu hình?",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 88,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⬜🔺⬜🔺⬜🔺, có bao nhiêu hình vuông?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 89,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⬜🔺▭⭕⬜🔺▭, có bao nhiêu loại hình?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "classification"
+        "category": "classification",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 90,
@@ -1173,19 +1341,31 @@
     },
     {
         "id": 97,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⬜⭕⬜⭕⬜, có bao nhiêu hình tròn?",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 98,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong 🔺🔺🔺🔺🔺🔺🔺🔺, có bao nhiêu hình tam giác?",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting-shapes"
+        "category": "counting-shapes",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 99,
@@ -1203,10 +1383,16 @@
     },
     {
         "id": 100,
-        "type": "classification",
+        "type": "multiple-choice",
         "question": "Trong ⭕⭕⬜⬜🔺🔺▭▭, có bao nhiêu loại hình?",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "classification"
+        "category": "classification",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     }
 ]

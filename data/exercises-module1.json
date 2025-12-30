@@ -155,115 +155,199 @@
     },
     {
         "id": 12,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍎",
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 13,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍎🍎",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 14,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍎🍎🍎",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 15,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍎🍎🍎🍎",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 16,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍎🍎🍎🍎🍎",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 17,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: ⭐⭐⭐⭐⭐⭐",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 18,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: ⭐⭐⭐⭐⭐⭐⭐",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 19,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🌸🌸🌸🌸🌸🌸🌸🌸",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 20,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🌸🌸🌸🌸🌸🌸🌸🌸🌸",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 21,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 22,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍬🍬",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 23,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍬🍬🍬🍬",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 24,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🍬🍬🍬🍬🍬🍬",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 25,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🐟🐟🐟🐟🐟🐟🐟🐟",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 26,
@@ -477,147 +561,255 @@
     },
     {
         "id": 41,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 0, 1, 2, __, 4",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 42,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 2, 3, 4, __, 6",
         "correctAnswer": "5",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 43,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 5, 6, __, 8, 9",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 44,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 6, 7, 8, __, 10",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 45,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 0, __, 2, 3, 4",
         "correctAnswer": "1",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 46,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 1, 2, __, 4, 5",
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 47,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 3, 4, 5, __, 7",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 48,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 4, 5, __, 7, 8",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 49,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 7, __, 9, 10",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 50,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: __, 1, 2, 3",
         "correctAnswer": "0",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 51,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🦋🦋🦋",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 52,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🦋🦋🦋🦋🦋",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 53,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🦋🦋🦋🦋🦋🦋🦋",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 54,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🦋🦋🦋🦋🦋🦋🦋🦋🦋",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 55,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🚗🚗🚗🚗",
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 56,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🚗🚗🚗🚗🚗🚗",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 57,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🚗🚗🚗🚗🚗🚗🚗🚗",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 58,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🚗🚗🚗🚗🚗🚗🚗🚗🚗🚗",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 59,
@@ -845,99 +1037,171 @@
     },
     {
         "id": 75,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 1, __, 3, 4, 5",
         "correctAnswer": "2",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 76,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 2, 3, __, 5, 6",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 77,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 3, __, 5, 6, 7",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 78,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 5, __, 7, 8, 9",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 79,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 6, __, 8, 9, 10",
         "correctAnswer": "7",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
     },
     {
         "id": 80,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: __, 2, 3, 4, 5",
         "correctAnswer": "1",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 81,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🏀🏀",
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 82,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🏀🏀🏀🏀🏀",
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
     },
     {
         "id": 83,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🏀🏀🏀🏀🏀🏀🏀🏀",
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
     },
     {
         "id": 84,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🎨🎨🎨",
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "id": 85,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🎨🎨🎨🎨🎨🎨",
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
     },
     {
         "id": 86,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Đếm số lượng: 🎨🎨🎨🎨🎨🎨🎨🎨🎨",
         "correctAnswer": "9",
         "difficulty": 2,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
     },
     {
         "id": 87,
@@ -1067,35 +1331,59 @@
     },
     {
         "id": 96,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 8, 9, __",
         "correctAnswer": "10",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+        ]
     },
     {
         "id": 97,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: __, 5, 6, 7",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 98,
-        "type": "fill-in",
+        "type": "multiple-choice",
         "question": "Điền số thiếu: 1, 2, 3, __, 5, 6",
         "correctAnswer": "4",
         "difficulty": 2,
-        "category": "sequence"
+        "category": "sequence",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
     },
     {
         "id": 99,
-        "type": "counting",
+        "type": "multiple-choice",
         "question": "Trong giỏ rỗng có bao nhiêu quả táo? 🧺",
         "correctAnswer": "0",
         "difficulty": 1,
-        "category": "counting"
+        "category": "counting",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
     },
     {
         "id": 100,
