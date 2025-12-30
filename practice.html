@@ -42,9 +42,12 @@
 
         .options-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: var(--spacing-md);
             margin: var(--spacing-xl) 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .option-btn {
@@ -420,23 +423,44 @@
         }
 
         function generateAdditionVisual(num1, num2) {
-            const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8'];
-            const dots1 = Array(num1).fill(0).map((_, i) =>
-                `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${colors[0]}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">${i + 1}</div>`
+            // Random emoji sets for variety
+            const emojiSets = [
+                ['🍎', '🍊'],  // Apple + Orange
+                ['🐛', '🦋'],  // Caterpillar + Butterfly
+                ['🍬', '🍭'],  // Candy + Lollipop
+                ['⭐', '🌟'],  // Stars
+                ['🌸', '🌺'],  // Flowers
+                ['🐟', '🐠'],  // Fish
+                ['🍓', '🍒'],  // Strawberry + Cherry
+                ['🚗', '🚙'],  // Cars
+            ];
+
+            const randomSet = emojiSets[Math.floor(Math.random() * emojiSets.length)];
+            const emoji1 = randomSet[0];
+            const emoji2 = randomSet[1];
+
+            const items1 = Array(num1).fill(0).map(() =>
+                `<span style="font-size: 3rem; margin: 5px; display: inline-block; animation: bounce 0.5s;">${emoji1}</span>`
             ).join('');
 
-            const dots2 = Array(num2).fill(0).map((_, i) =>
-                `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${colors[1]}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">${i + 1}</div>`
+            const items2 = Array(num2).fill(0).map(() =>
+                `<span style="font-size: 3rem; margin: 5px; display: inline-block; animation: bounce 0.5s;">${emoji2}</span>`
             ).join('');
 
             return `
+                <style>
+                    @keyframes bounce {
+                        0%, 100% { transform: translateY(0); }
+                        50% { transform: translateY(-10px); }
+                    }
+                </style>
                 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
-                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px;">
-                        ${dots1}
+                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        ${items1}
                     </div>
                     <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">+</div>
-                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(78, 205, 196, 0.1); border-radius: 12px;">
-                        ${dots2}
+                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(78, 205, 196, 0.1); border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        ${items2}
                     </div>
                     <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">=</div>
                     <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">?</div>
@@ -446,21 +470,27 @@
 
         function generateSubtractionVisual(num1, num2) {
             const result = num1 - num2;
-            const dots = Array(num1).fill(0).map((_, i) => {
+
+            // Random emoji for subtraction
+            const subEmojis = ['🍎', '🍊', '🍬', '🍭', '⭐', '🌸', '🐟', '🚗', '🎈', '🍪'];
+            const emoji = subEmojis[Math.floor(Math.random() * subEmojis.length)];
+
+            const items = Array(num1).fill(0).map((_, i) => {
                 const isCrossed = i >= result;
-                return `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${isCrossed ? '#ccc' : '#FF6B6B'}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px; position: relative;">
-                    ${i + 1}
-                    ${isCrossed ? '<div style="position: absolute; width: 100%; height: 2px; background: #333; transform: rotate(45deg);"></div><div style="position: absolute; width: 100%; height: 2px; background: #333; transform: rotate(-45deg);"></div>' : ''}
-                </div>`;
+                return `<span style="font-size: 3rem; margin: 5px; display: inline-block; position: relative; ${isCrossed ? 'opacity: 0.3; filter: grayscale(100%);' : ''}">
+                    ${emoji}
+                    ${isCrossed ? '<span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 4rem; color: #ff0000;">✖</span>' : ''}
+                </span>`;
             }).join('');
 
             return `
                 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
-                    <div style="display: flex; flex-wrap: wrap; max-width: 400px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px;">
-                        ${dots}
+                    <div style="display: flex; flex-wrap: wrap; max-width: 500px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                        ${items}
                     </div>
-                    <div style="font-size: 2rem; color: #666;">
-                        <div>Bỏ đi ${num2} → Còn lại ?</div>
+                    <div style="font-size: 1.5rem; color: #666; background: white; padding: 10px 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        <div>Bỏ đi ${num2} ${emoji}</div>
+                        <div style="margin-top: 5px; color: #667EEA; font-weight: bold;">→ Còn lại ?</div>
                     </div>
                 </div>
             `;
