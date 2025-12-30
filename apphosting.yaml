@@ -1,10 +1,13 @@
-runConfig:
-  runtime: nodejs20
-  startCommand: node server.js
-  
 env:
   - variable: NODE_ENV
     value: production
-  - variable: PORT
     availability:
+      - BUILD
       - RUNTIME
+
+runConfig:
+  cpu: 1
+  memoryMiB: 512
+  concurrency: 80
+  maxInstances: 4
+
