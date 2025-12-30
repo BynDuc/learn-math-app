@@ -32,12 +32,35 @@
         }
 
         .exercise-question {
-            font-size: var(--font-size-2xl);
-            font-weight: 600;
-            color: var(--color-primary);
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: var(--spacing-xl);
             text-align: center;
-            line-height: 1.6;
+            line-height: 1.4;
+            padding: var(--spacing-lg) var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+            background-color: rgba(102, 126, 234, 0.05);
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            animation: questionPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes questionPulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+                box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
+            }
+
+            50% {
+                transform: scale(1.02);
+                box-shadow: 0 6px 30px rgba(102, 126, 234, 0.25);
+            }
         }
 
         .options-grid {
