@@ -1,0 +1,10 @@
+runConfig:
+  runtime: nodejs20
+  startCommand: node server.js
+  
+env:
+  - variable: NODE_ENV
+    value: production
+  - variable: PORT
+    availability:
+      - RUNTIME
