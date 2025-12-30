@@ -364,6 +364,143 @@
             }
         }
 
+        // Generate visual illustration for question
+        function generateVisualIllustration(question, category) {
+            const visualArea = document.getElementById('visualArea');
+
+            // Parse math equations (addition/subtraction)
+            const mathMatch = question.match(/(\d+)\s*([+\-])\s*(\d+)\s*=\s*\?/);
+
+            if (mathMatch) {
+                const num1 = parseInt(mathMatch[1]);
+                const operator = mathMatch[2];
+                const num2 = parseInt(mathMatch[3]);
+
+                if (operator === '+') {
+                    // Addition: show two groups of dots
+                    return generateAdditionVisual(num1, num2);
+                } else if (operator === '-') {
+                    // Subtraction: show dots with some crossed out
+                    return generateSubtractionVisual(num1, num2);
+                }
+            }
+
+            // Parse number recognition questions
+            const numberMatch = question.match(/số\s+(\d+)/i);
+            if (numberMatch && (question.includes('là số') || question.includes('tương ứng'))) {
+                const num = parseInt(numberMatch[1]);
+                return generateNumberVisual(num);
+            }
+
+            // Parse sequence questions (điền số thiếu)
+            if (question.includes('Điền số thiếu') || question.includes('__')) {
+                const numbers = question.match(/\d+/g);
+                if (numbers) {
+                    return generateSequenceVisual(numbers);
+                }
+            }
+
+            // Parse "before/after" questions
+            if (question.includes('đứng trước') || question.includes('đứng sau') || question.includes('nằm giữa')) {
+                const numbers = question.match(/\d+/g);
+                if (numbers) {
+                    return generateSequenceVisual(numbers);
+                }
+            }
+
+            // Parse word problems with visual cues
+            if (question.includes('quả táo') || question.includes('quả cam')) {
+                const numbers = question.match(/\d+/g);
+                if (numbers) {
+                    return generateFruitVisual(numbers[0], '🍎');
+                }
+            }
+
+            return null;
+        }
+
+        function generateAdditionVisual(num1, num2) {
+            const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8'];
+            const dots1 = Array(num1).fill(0).map((_, i) =>
+                `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${colors[0]}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">${i + 1}</div>`
+            ).join('');
+
+            const dots2 = Array(num2).fill(0).map((_, i) =>
+                `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${colors[1]}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px;">${i + 1}</div>`
+            ).join('');
+
+            return `
+                <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px;">
+                        ${dots1}
+                    </div>
+                    <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">+</div>
+                    <div style="display: flex; flex-wrap: wrap; max-width: 300px; padding: 15px; background: rgba(78, 205, 196, 0.1); border-radius: 12px;">
+                        ${dots2}
+                    </div>
+                    <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">=</div>
+                    <div style="font-size: 3rem; font-weight: bold; color: #667EEA;">?</div>
+                </div>
+            `;
+        }
+
+        function generateSubtractionVisual(num1, num2) {
+            const result = num1 - num2;
+            const dots = Array(num1).fill(0).map((_, i) => {
+                const isCrossed = i >= result;
+                return `<div style="width: 40px; height: 40px; border-radius: 50%; background: ${isCrossed ? '#ccc' : '#FF6B6B'}; margin: 5px; display: inline-flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 18px; position: relative;">
+                    ${i + 1}
+                    ${isCrossed ? '<div style="position: absolute; width: 100%; height: 2px; background: #333; transform: rotate(45deg);"></div><div style="position: absolute; width: 100%; height: 2px; background: #333; transform: rotate(-45deg);"></div>' : ''}
+                </div>`;
+            }).join('');
+
+            return `
+                <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; justify-content: center;">
+                    <div style="display: flex; flex-wrap: wrap; max-width: 400px; padding: 15px; background: rgba(255, 107, 107, 0.1); border-radius: 12px;">
+                        ${dots}
+                    </div>
+                    <div style="font-size: 2rem; color: #666;">
+                        <div>Bỏ đi ${num2} → Còn lại ?</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function generateNumberVisual(number) {
+            const colors = ['#667EEA', '#764BA2', '#F093FB', '#4FACFE'];
+            return `
+                <div style="display: flex; align-items: center; justify-content: center; gap: 30px;">
+                    <div style="width: 200px; height: 200px; background: linear-gradient(135deg, ${colors[0]}, ${colors[1]}); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+                        <span style="font-size: 8rem; font-weight: bold; color: white;">${number}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        function generateSequenceVisual(numbers) {
+            const items = numbers.slice(0, 5).map(num =>
+                `<div style="width: 60px; height: 60px; background: linear-gradient(135deg, #667EEA, #764BA2); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">${num}</div>`
+            ).join('');
+
+            return `
+                <div style="display: flex; gap: 15px; align-items: center; justify-content: center;">
+                    ${items}
+                </div>
+            `;
+        }
+
+        function generateFruitVisual(count, emoji) {
+            const fruits = Array(parseInt(count)).fill(emoji).map(e =>
+                `<span style="font-size: 3rem; margin: 8px;">${e}</span>`
+            ).join('');
+
+            return `
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 500px;">
+                    ${fruits}
+                </div>
+            `;
+        }
+
         // Load current exercise
         function loadExercise() {
             if (currentExerciseIndex >= exercises.length) {
@@ -372,53 +509,53 @@
             }
 
             const exercise = exercises[currentExerciseIndex];
-
-            // Extract and display visual elements
-            const visualArea = document.getElementById('visualArea');
             const questionText = exercise.question;
+            const visualArea = document.getElementById('visualArea');
 
-            // Map keywords to illustration files (only for geometry questions)
-            const illustrationMap = {
-                'hình tam giác': 'images/triangle_corners.png',
-                'tam giác': 'images/triangle_corners.png',
-                'hình vuông': 'images/square_corners.png',
-                'vuông': 'images/square_corners.png',
-                'hình tròn': 'images/circle_no_corners.png',
-                'tròn': 'images/circle_no_corners.png',
-                'hình chữ nhật': 'images/square_corners.png'
-                // Removed generic 'cộng' and '+' mappings to avoid showing wrong illustrations
-            };
+            // Generate dynamic illustration
+            const dynamicVisual = generateVisualIllustration(questionText, exercise.category);
 
-            // Find matching illustration
-            let illustrationPath = null;
-            const lowerQuestion = questionText.toLowerCase();
-            for (const [keyword, path] of Object.entries(illustrationMap)) {
-                if (lowerQuestion.includes(keyword)) {
-                    illustrationPath = path;
-                    break;
-                }
-            }
-
-            // Enhanced emoji regex to catch all visual content
-            const emojiRegex = /[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[⭐⭕⬜🔺▭]/gu;
-            const emojis = questionText.match(emojiRegex);
-
-            if (illustrationPath) {
-                // Show illustration image
-                visualArea.innerHTML = `<img src="${illustrationPath}" alt="Minh họa" style="max-width: 400px; max-height: 300px; object-fit: contain;">`;
+            if (dynamicVisual) {
+                visualArea.innerHTML = dynamicVisual;
                 visualArea.style.display = 'flex';
                 document.getElementById('questionText').textContent = questionText;
-            } else if (emojis && emojis.length > 0) {
-                // Display emojis in large visual area
-                visualArea.innerHTML = emojis.map(emoji => `<span style="margin: 5px;">${emoji}</span>`).join('');
-                visualArea.style.display = 'flex';
-                // Remove emojis from question text for cleaner display
-                const cleanQuestion = questionText.replace(emojiRegex, '').replace(/:\s+/g, ': ').replace(/\s+/g, ' ').trim();
-                document.getElementById('questionText').textContent = cleanQuestion;
             } else {
-                // No emojis, hide visual area
-                visualArea.style.display = 'none';
-                document.getElementById('questionText').textContent = questionText;
+                // Fallback to emoji detection
+                const emojiRegex = /[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[⭐⭕⬜🔺▭]/gu;
+                const emojis = questionText.match(emojiRegex);
+
+                if (emojis && emojis.length > 0) {
+                    visualArea.innerHTML = emojis.map(emoji => `<span style="margin: 5px; font-size: 4rem;">${emoji}</span>`).join('');
+                    visualArea.style.display = 'flex';
+                    const cleanQuestion = questionText.replace(emojiRegex, '').replace(/:\s+/g, ': ').replace(/\s+/g, ' ').trim();
+                    document.getElementById('questionText').textContent = cleanQuestion;
+                } else {
+                    // Check for geometry questions
+                    const lowerQuestion = questionText.toLowerCase();
+                    const geometryMap = {
+                        'tam giác': '🔺',
+                        'vuông': '⬜',
+                        'tròn': '⭕',
+                        'chữ nhật': '▭'
+                    };
+
+                    let shapeEmoji = null;
+                    for (const [keyword, emoji] of Object.entries(geometryMap)) {
+                        if (lowerQuestion.includes(keyword)) {
+                            shapeEmoji = emoji;
+                            break;
+                        }
+                    }
+
+                    if (shapeEmoji) {
+                        visualArea.innerHTML = `<span style="font-size: 8rem;">${shapeEmoji}</span>`;
+                        visualArea.style.display = 'flex';
+                        document.getElementById('questionText').textContent = questionText;
+                    } else {
+                        visualArea.style.display = 'none';
+                        document.getElementById('questionText').textContent = questionText;
+                    }
+                }
             }
 
             document.getElementById('feedback').classList.add('hidden');
