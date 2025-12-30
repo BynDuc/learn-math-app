@@ -34,19 +34,26 @@
         .exercise-question {
             font-size: 3rem;
             font-weight: 700;
-            background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: #1a1a1a;
             margin-bottom: var(--spacing-xl);
             text-align: center;
             line-height: 1.4;
             padding: var(--spacing-lg) var(--spacing-xl);
             border-radius: var(--radius-lg);
-            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.15);
-            background-color: rgba(102, 126, 234, 0.05);
-            border: 2px solid rgba(102, 126, 234, 0.2);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 242, 255, 0.9) 100%);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border: 2px solid rgba(102, 126, 234, 0.3);
             animation: questionPulse 2s ease-in-out infinite;
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            .exercise-question {
+                color: #ffffff;
+                background: linear-gradient(135deg, rgba(50, 50, 80, 0.9) 0%, rgba(70, 70, 100, 0.9) 100%);
+                border-color: rgba(102, 126, 234, 0.5);
+                box-shadow: 0 4px 20px rgba(102, 126, 234, 0.2);
+            }
         }
 
         @keyframes questionPulse {
