@@ -11,7 +11,10 @@
         ],
         "correctAnswer": "0",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_zero_empty_basket_1767235615623.png",
+        "imageAlt": "Một cái giỏ rỗng (số 0)",
+        "imageType": "illustration"
     },
     {
         "id": 2,
@@ -25,7 +28,10 @@
         ],
         "correctAnswer": "1",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_one_sun_1767235630692.png",
+        "imageAlt": "Một mặt trời vàng (số 1)",
+        "imageType": "illustration"
     },
     {
         "id": 3,
@@ -39,7 +45,10 @@
         ],
         "correctAnswer": "2",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_two_butterflies_1767235648191.png",
+        "imageAlt": "Hai con bướm xinh đẹp (số 2)",
+        "imageType": "illustration"
     },
     {
         "id": 4,
@@ -53,7 +62,10 @@
         ],
         "correctAnswer": "3",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_three_apples_v2_1767236451554.png",
+        "imageAlt": "Ba quả táo đỏ (số 3)",
+        "imageType": "illustration"
     },
     {
         "id": 5,
@@ -67,7 +79,10 @@
         ],
         "correctAnswer": "4",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_four_flowers_1767236394577.png",
+        "imageAlt": "Bốn bông hoa rực rỡ (số 4)",
+        "imageType": "illustration"
     },
     {
         "id": 6,
@@ -81,7 +96,10 @@
         ],
         "correctAnswer": "5",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_five_stars_1767236467298.png",
+        "imageAlt": "Năm ngôi sao vàng (số 5)",
+        "imageType": "illustration"
     },
     {
         "id": 7,
@@ -95,7 +113,10 @@
         ],
         "correctAnswer": "6",
         "difficulty": 1,
-        "category": "recognition"
+        "category": "recognition",
+        "imageUrl": "/images/exercises/module1/number_six_balloons_1767236483652.png",
+        "imageAlt": "Sáu quả bóng bay (số 6)",
+        "imageType": "illustration"
     },
     {
         "id": 8,
@@ -165,7 +186,10 @@
             "1",
             "2",
             "3"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_apples_3_1767235661359.png",
+        "imageAlt": "Ba quả táo đỏ để đếm",
+        "imageType": "photo"
     },
     {
         "id": 13,
@@ -193,7 +217,10 @@
             "2",
             "3",
             "4"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_apples_3_1767235661359.png",
+        "imageAlt": "Ba quả táo đỏ để đếm",
+        "imageType": "photo"
     },
     {
         "id": 15,
@@ -221,7 +248,10 @@
             "4",
             "5",
             "6"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_apples_5_1767235676797.png",
+        "imageAlt": "Năm quả táo đỏ để đếm",
+        "imageType": "photo"
     },
     {
         "id": 17,
@@ -235,7 +265,10 @@
             "5",
             "6",
             "7"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_stars_6_1767235700727.png",
+        "imageAlt": "Sáu ngôi sao lấp lánh",
+        "imageType": "illustration"
     },
     {
         "id": 18,
@@ -263,7 +296,10 @@
             "7",
             "8",
             "9"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_flowers_8_1767235713890.png",
+        "imageAlt": "Tám bông hoa trong vườn",
+        "imageType": "illustration"
     },
     {
         "id": 20,
@@ -291,7 +327,10 @@
             "9",
             "10",
             "11"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/counting_balloons_10_1767236346762.png",
+        "imageAlt": "Mười quả bóng bay trên trời",
+        "imageType": "illustration"
     },
     {
         "id": 22,
@@ -529,7 +568,10 @@
         ],
         "correctAnswer": "3",
         "difficulty": 2,
-        "category": "ordering"
+        "category": "ordering",
+        "imageUrl": "/images/exercises/module1/number_line_0_to_10_1767236376392.png",
+        "imageAlt": "Trục số từ 0 đến 10",
+        "imageType": "diagram"
     },
     {
         "id": 39,
@@ -543,7 +585,10 @@
         ],
         "correctAnswer": "6",
         "difficulty": 2,
-        "category": "ordering"
+        "category": "ordering",
+        "imageUrl": "/images/exercises/module1/number_line_0_to_10_1767236376392.png",
+        "imageAlt": "Trục số từ 0 đến 10",
+        "imageType": "diagram"
     },
     {
         "id": 40,
@@ -557,7 +602,10 @@
         ],
         "correctAnswer": "8",
         "difficulty": 2,
-        "category": "ordering"
+        "category": "ordering",
+        "imageUrl": "/images/exercises/module1/number_line_0_to_10_1767236376392.png",
+        "imageAlt": "Trục số từ 0 đến 10",
+        "imageType": "diagram"
     },
     {
         "id": 41,
@@ -571,7 +619,10 @@
             "2",
             "3",
             "4"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/number_sequence_train_1767236362234.png",
+        "imageAlt": "Đoàn tàu chở các con số",
+        "imageType": "illustration"
     },
     {
         "id": 42,
@@ -585,7 +636,10 @@
             "4",
             "5",
             "6"
-        ]
+        ],
+        "imageUrl": "/images/exercises/module1/number_sequence_train_1767236362234.png",
+        "imageAlt": "Đoàn tàu chở các con số",
+        "imageType": "illustration"
     },
     {
         "id": 43,
