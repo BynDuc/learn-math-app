@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "type": "multiple-choice",
+        "question": "Số nào là số 0?",
+        "imageUrl": "/images/exercises/module1/number_zero_empty_basket_1767235615623.png",
+        "imageAlt": "Một cái giỏ rỗng không có gì bên trong cùng với số 0",
+        "imageType": "illustration",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctAnswer": "0",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 2,
+        "type": "multiple-choice",
+        "question": "Số nào là số 1?",
+        "imageUrl": "/images/exercises/module1/number_one_sun_1767235630692.png",
+        "imageAlt": "Một mặt trời vàng tươi cười cùng với số 1",
+        "imageType": "illustration",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correctAnswer": "1",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 3,
+        "type": "multiple-choice",
+        "question": "Số nào là số 2?",
+        "imageUrl": "/images/exercises/module1/number_two_butterflies_1767235648191.png",
+        "imageAlt": "Hai con bướm xinh đẹp cùng với số 2",
+        "imageType": "illustration",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correctAnswer": "2",
+        "difficulty": 1,
+        "category": "recognition"
+    },
+    {
+        "id": 12,
+        "type": "multiple-choice",
+        "question": "Đếm số lượng táo",
+        "imageUrl": "/images/exercises/module1/counting_apples_3_1767235661359.png",
+        "imageAlt": "Ba quả táo đỏ sáng bóng xếp thành hình tam giác",
+        "imageType": "photo",
+        "correctAnswer": "3",
+        "difficulty": 1,
+        "category": "counting",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "id": 16,
+        "type": "multiple-choice",
+        "question": "Đếm số lượng táo",
+        "imageUrl": "/images/exercises/module1/counting_apples_5_1767235676797.png",
+        "imageAlt": "Năm quả táo đỏ sáng bóng xếp thành 2 hàng",
+        "imageType": "photo",
+        "correctAnswer": "5",
+        "difficulty": 1,
+        "category": "counting",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "id": 17,
+        "type": "multiple-choice",
+        "question": "Đếm số lượng ngôi sao",
+        "imageUrl": "/images/exercises/module1/counting_stars_6_1767235700727.png",
+        "imageAlt": "Sáu ngôi sao vàng lấp lánh trên bầu trời đêm",
+        "imageType": "illustration",
+        "correctAnswer": "6",
+        "difficulty": 2,
+        "category": "counting",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ]
+    },
+    {
+        "id": 19,
+        "type": "multiple-choice",
+        "question": "Đếm số lượng bông hoa",
+        "imageUrl": "/images/exercises/module1/counting_flowers_8_1767235713890.png",
+        "imageAlt": "Tám bông hoa đầy màu sắc trong vườn",
+        "imageType": "illustration",
+        "correctAnswer": "8",
+        "difficulty": 2,
+        "category": "counting",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ]
+    }
+]

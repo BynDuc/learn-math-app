@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Làm Bài Tập - Học Toán Vui</title>
     <meta name="description" content="Làm bài tập toán học cho trẻ 5 tuổi">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎓</text></svg>">
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎓</text></svg>">
+
     <link rel="stylesheet" href="styles.css">
     <style>
         .practice-container {
@@ -204,7 +213,7 @@
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Trang Chủ</a></li>
                 <li><a href="curriculum.html">Chương Trình Học</a></li>
-                <li><a href="practice.html" class="btn btn-primary" style="padding: 0.5rem 1rem;">Làm Bài Tập</a></li>
+                <li><a href="practice.html" class="active">Làm Bài Tập</a></li>
                 <li><a href="index.html#about">Giới Thiệu</a></li>
                 <li><a href="index.html#benefits">Lợi Ích</a></li>
             </ul>
@@ -574,48 +583,67 @@
             const questionText = exercise.question;
             const visualArea = document.getElementById('visualArea');
 
-            // Generate dynamic illustration
-            const dynamicVisual = generateVisualIllustration(questionText, exercise.category);
-
-            if (dynamicVisual) {
-                visualArea.innerHTML = dynamicVisual;
+            // PRIORITY 1: Use image from exercise if available
+            if (exercise.imageUrl) {
+                visualArea.innerHTML = `
+                    <img src="${exercise.imageUrl}" 
+                         alt="${exercise.imageAlt || questionText}" 
+                         style="max-width: 100%; max-height: 400px; border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); 
+                                object-fit: contain; animation: fadeIn 0.5s ease-in-out;">
+                    <style>
+                        @keyframes fadeIn {
+                            from { opacity: 0; transform: scale(0.95); }
+                            to { opacity: 1; transform: scale(1); }
+                        }
+                    </style>
+                `;
                 visualArea.style.display = 'flex';
                 document.getElementById('questionText').textContent = questionText;
-            } else {
-                // Fallback to emoji detection
-                const emojiRegex = /[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[⭐⭕⬜🔺▭]/gu;
-                const emojis = questionText.match(emojiRegex);
+            }
+            // PRIORITY 2: Generate dynamic illustration
+            else {
+                const dynamicVisual = generateVisualIllustration(questionText, exercise.category);
 
-                if (emojis && emojis.length > 0) {
-                    visualArea.innerHTML = emojis.map(emoji => `<span style="margin: 5px; font-size: 4rem;">${emoji}</span>`).join('');
+                if (dynamicVisual) {
+                    visualArea.innerHTML = dynamicVisual;
                     visualArea.style.display = 'flex';
-                    const cleanQuestion = questionText.replace(emojiRegex, '').replace(/:\s+/g, ': ').replace(/\s+/g, ' ').trim();
-                    document.getElementById('questionText').textContent = cleanQuestion;
+                    document.getElementById('questionText').textContent = questionText;
                 } else {
-                    // Check for geometry questions
-                    const lowerQuestion = questionText.toLowerCase();
-                    const geometryMap = {
-                        'tam giác': '🔺',
-                        'vuông': '⬜',
-                        'tròn': '⭕',
-                        'chữ nhật': '▭'
-                    };
+                    // Fallback to emoji detection
+                    const emojiRegex = /[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[⭐⭕⬜🔺▭]/gu;
+                    const emojis = questionText.match(emojiRegex);
 
-                    let shapeEmoji = null;
-                    for (const [keyword, emoji] of Object.entries(geometryMap)) {
-                        if (lowerQuestion.includes(keyword)) {
-                            shapeEmoji = emoji;
-                            break;
-                        }
-                    }
-
-                    if (shapeEmoji) {
-                        visualArea.innerHTML = `<span style="font-size: 8rem;">${shapeEmoji}</span>`;
+                    if (emojis && emojis.length > 0) {
+                        visualArea.innerHTML = emojis.map(emoji => `<span style="margin: 5px; font-size: 4rem;">${emoji}</span>`).join('');
                         visualArea.style.display = 'flex';
-                        document.getElementById('questionText').textContent = questionText;
+                        const cleanQuestion = questionText.replace(emojiRegex, '').replace(/:\s+/g, ': ').replace(/\s+/g, ' ').trim();
+                        document.getElementById('questionText').textContent = cleanQuestion;
                     } else {
-                        visualArea.style.display = 'none';
-                        document.getElementById('questionText').textContent = questionText;
+                        // Check for geometry questions
+                        const lowerQuestion = questionText.toLowerCase();
+                        const geometryMap = {
+                            'tam giác': '🔺',
+                            'vuông': '⬜',
+                            'tròn': '⭕',
+                            'chữ nhật': '▭'
+                        };
+
+                        let shapeEmoji = null;
+                        for (const [keyword, emoji] of Object.entries(geometryMap)) {
+                            if (lowerQuestion.includes(keyword)) {
+                                shapeEmoji = emoji;
+                                break;
+                            }
+                        }
+
+                        if (shapeEmoji) {
+                            visualArea.innerHTML = `<span style="font-size: 8rem;">${shapeEmoji}</span>`;
+                            visualArea.style.display = 'flex';
+                            document.getElementById('questionText').textContent = questionText;
+                        } else {
+                            visualArea.style.display = 'none';
+                            document.getElementById('questionText').textContent = questionText;
+                        }
                     }
                 }
             }

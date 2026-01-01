@@ -213,6 +213,12 @@ a:hover {
   color: white;
 }
 
+.nav-links a.active {
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
